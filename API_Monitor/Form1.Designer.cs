@@ -516,7 +516,7 @@
             // baemin_afterLogIn1
             // 
             this.baemin_afterLogIn1.Image = global::API_Monitor.Properties.Resources.gray;
-            this.baemin_afterLogIn1.Location = new System.Drawing.Point(541, 445);
+            this.baemin_afterLogIn1.Location = new System.Drawing.Point(561, 444);
             this.baemin_afterLogIn1.Name = "baemin_afterLogIn1";
             this.baemin_afterLogIn1.Size = new System.Drawing.Size(36, 35);
             this.baemin_afterLogIn1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -527,7 +527,7 @@
             // 
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(432, 449);
+            this.label26.Location = new System.Drawing.Point(452, 448);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(105, 24);
             this.label26.TabIndex = 42;
@@ -536,7 +536,7 @@
             // baemin_setShopStatusU
             // 
             this.baemin_setShopStatusU.Image = global::API_Monitor.Properties.Resources.gray;
-            this.baemin_setShopStatusU.Location = new System.Drawing.Point(541, 402);
+            this.baemin_setShopStatusU.Location = new System.Drawing.Point(561, 401);
             this.baemin_setShopStatusU.Name = "baemin_setShopStatusU";
             this.baemin_setShopStatusU.Size = new System.Drawing.Size(36, 35);
             this.baemin_setShopStatusU.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -547,7 +547,7 @@
             // 
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(324, 407);
+            this.label25.Location = new System.Drawing.Point(344, 406);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(213, 24);
             this.label25.TabIndex = 40;
@@ -556,7 +556,7 @@
             // baemin_setShopStatusB
             // 
             this.baemin_setShopStatusB.Image = global::API_Monitor.Properties.Resources.gray;
-            this.baemin_setShopStatusB.Location = new System.Drawing.Point(541, 361);
+            this.baemin_setShopStatusB.Location = new System.Drawing.Point(561, 360);
             this.baemin_setShopStatusB.Name = "baemin_setShopStatusB";
             this.baemin_setShopStatusB.Size = new System.Drawing.Size(36, 35);
             this.baemin_setShopStatusB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -567,7 +567,7 @@
             // 
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(347, 366);
+            this.label24.Location = new System.Drawing.Point(367, 365);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(190, 24);
             this.label24.TabIndex = 38;
@@ -576,7 +576,7 @@
             // baemin_getShopStatus
             // 
             this.baemin_getShopStatus.Image = global::API_Monitor.Properties.Resources.gray;
-            this.baemin_getShopStatus.Location = new System.Drawing.Point(541, 319);
+            this.baemin_getShopStatus.Location = new System.Drawing.Point(561, 318);
             this.baemin_getShopStatus.Name = "baemin_getShopStatus";
             this.baemin_getShopStatus.Size = new System.Drawing.Size(36, 35);
             this.baemin_getShopStatus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -587,7 +587,7 @@
             // 
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(403, 324);
+            this.label23.Location = new System.Drawing.Point(423, 323);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(134, 24);
             this.label23.TabIndex = 36;
@@ -596,7 +596,7 @@
             // baemin_orderCancel
             // 
             this.baemin_orderCancel.Image = global::API_Monitor.Properties.Resources.gray;
-            this.baemin_orderCancel.Location = new System.Drawing.Point(541, 277);
+            this.baemin_orderCancel.Location = new System.Drawing.Point(561, 276);
             this.baemin_orderCancel.Name = "baemin_orderCancel";
             this.baemin_orderCancel.Size = new System.Drawing.Size(36, 35);
             this.baemin_orderCancel.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -607,7 +607,7 @@
             // 
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(419, 281);
+            this.label22.Location = new System.Drawing.Point(439, 280);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(118, 24);
             this.label22.TabIndex = 34;
@@ -616,7 +616,7 @@
             // baemin_orderComplete
             // 
             this.baemin_orderComplete.Image = global::API_Monitor.Properties.Resources.gray;
-            this.baemin_orderComplete.Location = new System.Drawing.Point(541, 234);
+            this.baemin_orderComplete.Location = new System.Drawing.Point(561, 233);
             this.baemin_orderComplete.Name = "baemin_orderComplete";
             this.baemin_orderComplete.Size = new System.Drawing.Size(36, 35);
             this.baemin_orderComplete.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -627,7 +627,7 @@
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(397, 238);
+            this.label21.Location = new System.Drawing.Point(417, 237);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(140, 24);
             this.label21.TabIndex = 32;
@@ -636,7 +636,7 @@
             // baemin_orderReceipt
             // 
             this.baemin_orderReceipt.Image = global::API_Monitor.Properties.Resources.gray;
-            this.baemin_orderReceipt.Location = new System.Drawing.Point(541, 192);
+            this.baemin_orderReceipt.Location = new System.Drawing.Point(561, 191);
             this.baemin_orderReceipt.Name = "baemin_orderReceipt";
             this.baemin_orderReceipt.Size = new System.Drawing.Size(36, 35);
             this.baemin_orderReceipt.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -647,7 +647,7 @@
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(414, 196);
+            this.label20.Location = new System.Drawing.Point(434, 195);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(123, 24);
             this.label20.TabIndex = 30;
@@ -656,7 +656,7 @@
             // baemin_getDetailOrders
             // 
             this.baemin_getDetailOrders.Image = global::API_Monitor.Properties.Resources.gray;
-            this.baemin_getDetailOrders.Location = new System.Drawing.Point(541, 149);
+            this.baemin_getDetailOrders.Location = new System.Drawing.Point(561, 148);
             this.baemin_getDetailOrders.Name = "baemin_getDetailOrders";
             this.baemin_getDetailOrders.Size = new System.Drawing.Size(36, 35);
             this.baemin_getDetailOrders.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -667,7 +667,7 @@
             // 
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(394, 153);
+            this.label19.Location = new System.Drawing.Point(414, 152);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(143, 24);
             this.label19.TabIndex = 28;
@@ -676,7 +676,7 @@
             // baemin_getCompletedOrders
             // 
             this.baemin_getCompletedOrders.Image = global::API_Monitor.Properties.Resources.gray;
-            this.baemin_getCompletedOrders.Location = new System.Drawing.Point(541, 106);
+            this.baemin_getCompletedOrders.Location = new System.Drawing.Point(561, 105);
             this.baemin_getCompletedOrders.Name = "baemin_getCompletedOrders";
             this.baemin_getCompletedOrders.Size = new System.Drawing.Size(36, 35);
             this.baemin_getCompletedOrders.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -687,7 +687,7 @@
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(348, 110);
+            this.label18.Location = new System.Drawing.Point(368, 109);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(189, 24);
             this.label18.TabIndex = 26;
@@ -696,7 +696,7 @@
             // baemin_pickupOrderReadyComplete
             // 
             this.baemin_pickupOrderReadyComplete.Image = global::API_Monitor.Properties.Resources.gray;
-            this.baemin_pickupOrderReadyComplete.Location = new System.Drawing.Point(541, 64);
+            this.baemin_pickupOrderReadyComplete.Location = new System.Drawing.Point(561, 63);
             this.baemin_pickupOrderReadyComplete.Name = "baemin_pickupOrderReadyComplete";
             this.baemin_pickupOrderReadyComplete.Size = new System.Drawing.Size(36, 35);
             this.baemin_pickupOrderReadyComplete.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -707,7 +707,7 @@
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(286, 68);
+            this.label17.Location = new System.Drawing.Point(306, 67);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(251, 24);
             this.label17.TabIndex = 24;
@@ -716,7 +716,7 @@
             // baemin_getNewOrders
             // 
             this.baemin_getNewOrders.Image = global::API_Monitor.Properties.Resources.gray;
-            this.baemin_getNewOrders.Location = new System.Drawing.Point(541, 20);
+            this.baemin_getNewOrders.Location = new System.Drawing.Point(561, 19);
             this.baemin_getNewOrders.Name = "baemin_getNewOrders";
             this.baemin_getNewOrders.Size = new System.Drawing.Size(36, 35);
             this.baemin_getNewOrders.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -727,7 +727,7 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(401, 24);
+            this.label16.Location = new System.Drawing.Point(421, 23);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(136, 24);
             this.label16.TabIndex = 22;
@@ -736,7 +736,7 @@
             // baemin_getOrderCancelCodes
             // 
             this.baemin_getOrderCancelCodes.Image = global::API_Monitor.Properties.Resources.gray;
-            this.baemin_getOrderCancelCodes.Location = new System.Drawing.Point(222, 445);
+            this.baemin_getOrderCancelCodes.Location = new System.Drawing.Point(250, 445);
             this.baemin_getOrderCancelCodes.Name = "baemin_getOrderCancelCodes";
             this.baemin_getOrderCancelCodes.Size = new System.Drawing.Size(36, 35);
             this.baemin_getOrderCancelCodes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -747,7 +747,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(14, 449);
+            this.label15.Location = new System.Drawing.Point(42, 449);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(202, 24);
             this.label15.TabIndex = 20;
@@ -756,7 +756,7 @@
             // baemin_getTimes
             // 
             this.baemin_getTimes.Image = global::API_Monitor.Properties.Resources.gray;
-            this.baemin_getTimes.Location = new System.Drawing.Point(222, 403);
+            this.baemin_getTimes.Location = new System.Drawing.Point(250, 403);
             this.baemin_getTimes.Name = "baemin_getTimes";
             this.baemin_getTimes.Size = new System.Drawing.Size(36, 35);
             this.baemin_getTimes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -767,7 +767,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(125, 407);
+            this.label14.Location = new System.Drawing.Point(153, 407);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(91, 24);
             this.label14.TabIndex = 18;
@@ -776,7 +776,7 @@
             // baemin_deleteDevice
             // 
             this.baemin_deleteDevice.Image = global::API_Monitor.Properties.Resources.gray;
-            this.baemin_deleteDevice.Location = new System.Drawing.Point(222, 361);
+            this.baemin_deleteDevice.Location = new System.Drawing.Point(250, 361);
             this.baemin_deleteDevice.Name = "baemin_deleteDevice";
             this.baemin_deleteDevice.Size = new System.Drawing.Size(36, 35);
             this.baemin_deleteDevice.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -787,7 +787,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(94, 366);
+            this.label13.Location = new System.Drawing.Point(122, 366);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(122, 24);
             this.label13.TabIndex = 16;
@@ -796,7 +796,7 @@
             // baemin_getDevices
             // 
             this.baemin_getDevices.Image = global::API_Monitor.Properties.Resources.gray;
-            this.baemin_getDevices.Location = new System.Drawing.Point(222, 319);
+            this.baemin_getDevices.Location = new System.Drawing.Point(250, 319);
             this.baemin_getDevices.Name = "baemin_getDevices";
             this.baemin_getDevices.Size = new System.Drawing.Size(36, 35);
             this.baemin_getDevices.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -807,7 +807,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(110, 324);
+            this.label12.Location = new System.Drawing.Point(138, 324);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(106, 24);
             this.label12.TabIndex = 14;
@@ -816,7 +816,7 @@
             // baemin_checkCert
             // 
             this.baemin_checkCert.Image = global::API_Monitor.Properties.Resources.gray;
-            this.baemin_checkCert.Location = new System.Drawing.Point(222, 276);
+            this.baemin_checkCert.Location = new System.Drawing.Point(250, 276);
             this.baemin_checkCert.Name = "baemin_checkCert";
             this.baemin_checkCert.Size = new System.Drawing.Size(36, 35);
             this.baemin_checkCert.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -827,7 +827,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(118, 281);
+            this.label11.Location = new System.Drawing.Point(146, 281);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(98, 24);
             this.label11.TabIndex = 12;
@@ -836,7 +836,7 @@
             // baemin_requestCertMessage
             // 
             this.baemin_requestCertMessage.Image = global::API_Monitor.Properties.Resources.gray;
-            this.baemin_requestCertMessage.Location = new System.Drawing.Point(222, 234);
+            this.baemin_requestCertMessage.Location = new System.Drawing.Point(250, 234);
             this.baemin_requestCertMessage.Name = "baemin_requestCertMessage";
             this.baemin_requestCertMessage.Size = new System.Drawing.Size(36, 35);
             this.baemin_requestCertMessage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -847,7 +847,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(25, 238);
+            this.label10.Location = new System.Drawing.Point(53, 238);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(191, 24);
             this.label10.TabIndex = 10;
@@ -856,7 +856,7 @@
             // baemin_getVersion
             // 
             this.baemin_getVersion.Image = global::API_Monitor.Properties.Resources.gray;
-            this.baemin_getVersion.Location = new System.Drawing.Point(222, 191);
+            this.baemin_getVersion.Location = new System.Drawing.Point(250, 191);
             this.baemin_getVersion.Name = "baemin_getVersion";
             this.baemin_getVersion.Size = new System.Drawing.Size(36, 35);
             this.baemin_getVersion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -867,7 +867,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(112, 196);
+            this.label9.Location = new System.Drawing.Point(140, 196);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(104, 24);
             this.label9.TabIndex = 8;
@@ -876,7 +876,7 @@
             // baemin_refreshToken1
             // 
             this.baemin_refreshToken1.Image = global::API_Monitor.Properties.Resources.gray;
-            this.baemin_refreshToken1.Location = new System.Drawing.Point(222, 148);
+            this.baemin_refreshToken1.Location = new System.Drawing.Point(250, 148);
             this.baemin_refreshToken1.Name = "baemin_refreshToken1";
             this.baemin_refreshToken1.Size = new System.Drawing.Size(36, 35);
             this.baemin_refreshToken1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -887,7 +887,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(77, 153);
+            this.label8.Location = new System.Drawing.Point(105, 153);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(139, 24);
             this.label8.TabIndex = 6;
@@ -896,7 +896,7 @@
             // baemin_refreshToken
             // 
             this.baemin_refreshToken.Image = global::API_Monitor.Properties.Resources.gray;
-            this.baemin_refreshToken.Location = new System.Drawing.Point(222, 105);
+            this.baemin_refreshToken.Location = new System.Drawing.Point(250, 105);
             this.baemin_refreshToken.Name = "baemin_refreshToken";
             this.baemin_refreshToken.Size = new System.Drawing.Size(36, 35);
             this.baemin_refreshToken.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -907,7 +907,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(87, 110);
+            this.label7.Location = new System.Drawing.Point(115, 110);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(129, 24);
             this.label7.TabIndex = 4;
@@ -916,7 +916,7 @@
             // baemin_preLogIn
             // 
             this.baemin_preLogIn.Image = global::API_Monitor.Properties.Resources.gray;
-            this.baemin_preLogIn.Location = new System.Drawing.Point(222, 62);
+            this.baemin_preLogIn.Location = new System.Drawing.Point(250, 62);
             this.baemin_preLogIn.Name = "baemin_preLogIn";
             this.baemin_preLogIn.Size = new System.Drawing.Size(36, 35);
             this.baemin_preLogIn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -927,7 +927,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(130, 68);
+            this.label6.Location = new System.Drawing.Point(158, 68);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(86, 24);
             this.label6.TabIndex = 2;
@@ -936,7 +936,7 @@
             // baemin_getRiderDistance
             // 
             this.baemin_getRiderDistance.Image = global::API_Monitor.Properties.Resources.gray;
-            this.baemin_getRiderDistance.Location = new System.Drawing.Point(222, 19);
+            this.baemin_getRiderDistance.Location = new System.Drawing.Point(250, 19);
             this.baemin_getRiderDistance.Name = "baemin_getRiderDistance";
             this.baemin_getRiderDistance.Size = new System.Drawing.Size(36, 35);
             this.baemin_getRiderDistance.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -947,7 +947,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(60, 24);
+            this.label1.Location = new System.Drawing.Point(88, 24);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(156, 24);
             this.label1.TabIndex = 0;
