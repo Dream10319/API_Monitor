@@ -43,7 +43,7 @@ namespace API_Monitor
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show("Data type error!");
+                        //MessageBox.Show("Data type error!");
                     }
 
                 });
@@ -89,17 +89,11 @@ namespace API_Monitor
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            //ws.Send("Hello from C# client!");
-            baemin_getRiderDistance.Image = Resources.red;
-
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             ws.Close();
             ws.Connect();
         }
+
     }
 }
