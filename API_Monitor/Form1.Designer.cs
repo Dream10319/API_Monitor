@@ -254,9 +254,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label109 = new System.Windows.Forms.Label();
+            this.nTotal_API = new System.Windows.Forms.Label();
+            this.nError_API = new System.Windows.Forms.Label();
+            this.nChecked_API = new System.Windows.Forms.Label();
             this.label110 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -2840,35 +2840,35 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // label4
+            // nTotal_API
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(123, 15);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(30, 25);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "...";
+            this.nTotal_API.AutoSize = true;
+            this.nTotal_API.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nTotal_API.Location = new System.Drawing.Point(123, 15);
+            this.nTotal_API.Name = "nTotal_API";
+            this.nTotal_API.Size = new System.Drawing.Size(30, 25);
+            this.nTotal_API.TabIndex = 5;
+            this.nTotal_API.Text = "...";
             // 
-            // label5
+            // nError_API
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(712, 15);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(30, 25);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "...";
+            this.nError_API.AutoSize = true;
+            this.nError_API.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nError_API.Location = new System.Drawing.Point(712, 15);
+            this.nError_API.Name = "nError_API";
+            this.nError_API.Size = new System.Drawing.Size(30, 25);
+            this.nError_API.TabIndex = 6;
+            this.nError_API.Text = "...";
             // 
-            // label109
+            // nChecked_API
             // 
-            this.label109.AutoSize = true;
-            this.label109.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label109.Location = new System.Drawing.Point(389, 15);
-            this.label109.Name = "label109";
-            this.label109.Size = new System.Drawing.Size(30, 25);
-            this.label109.TabIndex = 8;
-            this.label109.Text = "...";
+            this.nChecked_API.AutoSize = true;
+            this.nChecked_API.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nChecked_API.Location = new System.Drawing.Point(389, 15);
+            this.nChecked_API.Name = "nChecked_API";
+            this.nChecked_API.Size = new System.Drawing.Size(30, 25);
+            this.nChecked_API.TabIndex = 8;
+            this.nChecked_API.Text = "...";
             // 
             // label110
             // 
@@ -2885,10 +2885,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(923, 586);
-            this.Controls.Add(this.label109);
+            this.Controls.Add(this.nChecked_API);
             this.Controls.Add(this.label110);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.nError_API);
+            this.Controls.Add(this.nTotal_API);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -3039,8 +3039,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label nTotal_API;
+        private System.Windows.Forms.Label nError_API;
         private System.Windows.Forms.PictureBox baemin_refreshToken;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.PictureBox baemin_preLogIn;
@@ -3250,7 +3250,7 @@
         private System.Windows.Forms.Label label107;
         private System.Windows.Forms.PictureBox coupangeats_web_getReviewSummaryApi;
         private System.Windows.Forms.Label label108;
-        private System.Windows.Forms.Label label109;
+        private System.Windows.Forms.Label nChecked_API;
         private System.Windows.Forms.Label label110;
     }
 }
