@@ -32,7 +32,7 @@ namespace API_Monitor
                     try
                     {
                         API_Response aPI_Response = JsonConvert.DeserializeObject<API_Response>(eArgs.Data);
-                        string control_name = aPI_Response.shop_type.ToLower() + "_" + aPI_Response.api_type[0] + aPI_Response.api_type.Substring(1);
+                        string control_name = aPI_Response.shop_type.ToLower() + "_" + aPI_Response.api_type[0].ToString().ToLower() + aPI_Response.api_type.Substring(1);
                         PictureBox control = (PictureBox)this.Controls.Find(control_name, true)[0];
 
                         if (aPI_Response.status) control.Image = Resources.green;

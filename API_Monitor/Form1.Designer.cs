@@ -244,13 +244,6 @@
             this.coupangeats_web_logIn = new System.Windows.Forms.PictureBox();
             this.label106 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.tabPage7 = new System.Windows.Forms.TabPage();
-            this.tabPage8 = new System.Windows.Forms.TabPage();
-            this.tabPage9 = new System.Windows.Forms.TabPage();
-            this.tabPage10 = new System.Windows.Forms.TabPage();
-            this.tabPage11 = new System.Windows.Forms.TabPage();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
@@ -258,6 +251,36 @@
             this.nError_API = new System.Windows.Forms.Label();
             this.nChecked_API = new System.Windows.Forms.Label();
             this.label110 = new System.Windows.Forms.Label();
+            this.naverchannel_cancelOrderApi = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.naverchannel_startCookingApi = new System.Windows.Forms.PictureBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.naverchannel_orderComplete = new System.Windows.Forms.PictureBox();
+            this.label109 = new System.Windows.Forms.Label();
+            this.naverchannel_callGetBusinessItemsApi = new System.Windows.Forms.PictureBox();
+            this.label111 = new System.Windows.Forms.Label();
+            this.naverchannel_callGetBusinessInfoApi = new System.Windows.Forms.PictureBox();
+            this.label112 = new System.Windows.Forms.Label();
+            this.naverchannel_callUserInfoApi = new System.Windows.Forms.PictureBox();
+            this.label113 = new System.Windows.Forms.Label();
+            this.naverchannel_callFinalizeApi = new System.Windows.Forms.PictureBox();
+            this.label114 = new System.Windows.Forms.Label();
+            this.naverchannel_callLoginApi = new System.Windows.Forms.PictureBox();
+            this.label115 = new System.Windows.Forms.Label();
+            this.naverchannel_getSessionInfoApi = new System.Windows.Forms.PictureBox();
+            this.label116 = new System.Windows.Forms.Label();
+            this.naverchannel_logOut = new System.Windows.Forms.PictureBox();
+            this.label117 = new System.Windows.Forms.Label();
+            this.naverchannel_logIn = new System.Windows.Forms.PictureBox();
+            this.label118 = new System.Windows.Forms.Label();
+            this.naverchannel_patchSettingApi = new System.Windows.Forms.PictureBox();
+            this.label119 = new System.Windows.Forms.Label();
+            this.naverchannel_getOrderStatsApi = new System.Windows.Forms.PictureBox();
+            this.label120 = new System.Windows.Forms.Label();
+            this.naverchannel_getOrderList = new System.Windows.Forms.PictureBox();
+            this.label121 = new System.Windows.Forms.Label();
+            this.naverchannel_getAllOrders = new System.Windows.Forms.PictureBox();
+            this.label122 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.baemin_logOut)).BeginInit();
@@ -369,6 +392,22 @@
             ((System.ComponentModel.ISupportInitialize)(this.coupangeats_web_getHomepageApi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.coupangeats_web_logOut)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.coupangeats_web_logIn)).BeginInit();
+            this.tabPage4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_cancelOrderApi)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_startCookingApi)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_orderComplete)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_callGetBusinessItemsApi)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_callGetBusinessInfoApi)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_callUserInfoApi)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_callFinalizeApi)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_callLoginApi)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_getSessionInfoApi)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_logOut)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_logIn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_patchSettingApi)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_getOrderStatsApi)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_getOrderList)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_getAllOrders)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -380,13 +419,6 @@
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage14);
             this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Controls.Add(this.tabPage5);
-            this.tabControl1.Controls.Add(this.tabPage6);
-            this.tabControl1.Controls.Add(this.tabPage7);
-            this.tabControl1.Controls.Add(this.tabPage8);
-            this.tabControl1.Controls.Add(this.tabPage9);
-            this.tabControl1.Controls.Add(this.tabPage10);
-            this.tabControl1.Controls.Add(this.tabPage11);
             this.tabControl1.Location = new System.Drawing.Point(12, 53);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -2739,75 +2771,42 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.naverchannel_patchSettingApi);
+            this.tabPage4.Controls.Add(this.label119);
+            this.tabPage4.Controls.Add(this.naverchannel_getOrderStatsApi);
+            this.tabPage4.Controls.Add(this.label120);
+            this.tabPage4.Controls.Add(this.naverchannel_getOrderList);
+            this.tabPage4.Controls.Add(this.label121);
+            this.tabPage4.Controls.Add(this.naverchannel_getAllOrders);
+            this.tabPage4.Controls.Add(this.label122);
+            this.tabPage4.Controls.Add(this.naverchannel_cancelOrderApi);
+            this.tabPage4.Controls.Add(this.label4);
+            this.tabPage4.Controls.Add(this.naverchannel_startCookingApi);
+            this.tabPage4.Controls.Add(this.label5);
+            this.tabPage4.Controls.Add(this.naverchannel_orderComplete);
+            this.tabPage4.Controls.Add(this.label109);
+            this.tabPage4.Controls.Add(this.naverchannel_callGetBusinessItemsApi);
+            this.tabPage4.Controls.Add(this.label111);
+            this.tabPage4.Controls.Add(this.naverchannel_callGetBusinessInfoApi);
+            this.tabPage4.Controls.Add(this.label112);
+            this.tabPage4.Controls.Add(this.naverchannel_callUserInfoApi);
+            this.tabPage4.Controls.Add(this.label113);
+            this.tabPage4.Controls.Add(this.naverchannel_callFinalizeApi);
+            this.tabPage4.Controls.Add(this.label114);
+            this.tabPage4.Controls.Add(this.naverchannel_callLoginApi);
+            this.tabPage4.Controls.Add(this.label115);
+            this.tabPage4.Controls.Add(this.naverchannel_getSessionInfoApi);
+            this.tabPage4.Controls.Add(this.label116);
+            this.tabPage4.Controls.Add(this.naverchannel_logOut);
+            this.tabPage4.Controls.Add(this.label117);
+            this.tabPage4.Controls.Add(this.naverchannel_logIn);
+            this.tabPage4.Controls.Add(this.label118);
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Size = new System.Drawing.Size(891, 495);
             this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Ddangyo";
+            this.tabPage4.Text = "NaverChannel";
             this.tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // tabPage5
-            // 
-            this.tabPage5.Location = new System.Drawing.Point(4, 22);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(891, 495);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "PayCo";
-            this.tabPage5.UseVisualStyleBackColor = true;
-            // 
-            // tabPage6
-            // 
-            this.tabPage6.Location = new System.Drawing.Point(4, 22);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Size = new System.Drawing.Size(891, 495);
-            this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "Mukkebi";
-            this.tabPage6.UseVisualStyleBackColor = true;
-            // 
-            // tabPage7
-            // 
-            this.tabPage7.Location = new System.Drawing.Point(4, 22);
-            this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Size = new System.Drawing.Size(891, 495);
-            this.tabPage7.TabIndex = 6;
-            this.tabPage7.Text = "Daeguro";
-            this.tabPage7.UseVisualStyleBackColor = true;
-            // 
-            // tabPage8
-            // 
-            this.tabPage8.Location = new System.Drawing.Point(4, 22);
-            this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Size = new System.Drawing.Size(891, 495);
-            this.tabPage8.TabIndex = 7;
-            this.tabPage8.Text = "Wimepo";
-            this.tabPage8.UseVisualStyleBackColor = true;
-            // 
-            // tabPage9
-            // 
-            this.tabPage9.Location = new System.Drawing.Point(4, 22);
-            this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Size = new System.Drawing.Size(891, 495);
-            this.tabPage9.TabIndex = 8;
-            this.tabPage9.Text = "Naver";
-            this.tabPage9.UseVisualStyleBackColor = true;
-            // 
-            // tabPage10
-            // 
-            this.tabPage10.Location = new System.Drawing.Point(4, 22);
-            this.tabPage10.Name = "tabPage10";
-            this.tabPage10.Size = new System.Drawing.Size(891, 495);
-            this.tabPage10.TabIndex = 9;
-            this.tabPage10.Text = "DeliverySeoGu";
-            this.tabPage10.UseVisualStyleBackColor = true;
-            // 
-            // tabPage11
-            // 
-            this.tabPage11.Location = new System.Drawing.Point(4, 22);
-            this.tabPage11.Name = "tabPage11";
-            this.tabPage11.Size = new System.Drawing.Size(891, 495);
-            this.tabPage11.TabIndex = 10;
-            this.tabPage11.Text = "ShopChain";
-            this.tabPage11.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -2879,6 +2878,306 @@
             this.label110.Size = new System.Drawing.Size(153, 25);
             this.label110.TabIndex = 7;
             this.label110.Text = "Checked APIs:";
+            // 
+            // naverchannel_cancelOrderApi
+            // 
+            this.naverchannel_cancelOrderApi.Image = global::API_Monitor.Properties.Resources.gray;
+            this.naverchannel_cancelOrderApi.Location = new System.Drawing.Point(253, 441);
+            this.naverchannel_cancelOrderApi.Name = "naverchannel_cancelOrderApi";
+            this.naverchannel_cancelOrderApi.Size = new System.Drawing.Size(36, 35);
+            this.naverchannel_cancelOrderApi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.naverchannel_cancelOrderApi.TabIndex = 87;
+            this.naverchannel_cancelOrderApi.TabStop = false;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(101, 445);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(146, 24);
+            this.label4.TabIndex = 86;
+            this.label4.Text = "CancelOrderApi";
+            // 
+            // naverchannel_startCookingApi
+            // 
+            this.naverchannel_startCookingApi.Image = global::API_Monitor.Properties.Resources.gray;
+            this.naverchannel_startCookingApi.Location = new System.Drawing.Point(253, 398);
+            this.naverchannel_startCookingApi.Name = "naverchannel_startCookingApi";
+            this.naverchannel_startCookingApi.Size = new System.Drawing.Size(36, 35);
+            this.naverchannel_startCookingApi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.naverchannel_startCookingApi.TabIndex = 85;
+            this.naverchannel_startCookingApi.TabStop = false;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(103, 403);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(144, 24);
+            this.label5.TabIndex = 84;
+            this.label5.Text = "StartCookingApi";
+            // 
+            // naverchannel_orderComplete
+            // 
+            this.naverchannel_orderComplete.Image = global::API_Monitor.Properties.Resources.gray;
+            this.naverchannel_orderComplete.Location = new System.Drawing.Point(253, 357);
+            this.naverchannel_orderComplete.Name = "naverchannel_orderComplete";
+            this.naverchannel_orderComplete.Size = new System.Drawing.Size(36, 35);
+            this.naverchannel_orderComplete.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.naverchannel_orderComplete.TabIndex = 83;
+            this.naverchannel_orderComplete.TabStop = false;
+            // 
+            // label109
+            // 
+            this.label109.AutoSize = true;
+            this.label109.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label109.Location = new System.Drawing.Point(107, 362);
+            this.label109.Name = "label109";
+            this.label109.Size = new System.Drawing.Size(140, 24);
+            this.label109.TabIndex = 82;
+            this.label109.Text = "OrderComplete";
+            // 
+            // naverchannel_callGetBusinessItemsApi
+            // 
+            this.naverchannel_callGetBusinessItemsApi.Image = global::API_Monitor.Properties.Resources.gray;
+            this.naverchannel_callGetBusinessItemsApi.Location = new System.Drawing.Point(253, 315);
+            this.naverchannel_callGetBusinessItemsApi.Name = "naverchannel_callGetBusinessItemsApi";
+            this.naverchannel_callGetBusinessItemsApi.Size = new System.Drawing.Size(36, 35);
+            this.naverchannel_callGetBusinessItemsApi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.naverchannel_callGetBusinessItemsApi.TabIndex = 81;
+            this.naverchannel_callGetBusinessItemsApi.TabStop = false;
+            // 
+            // label111
+            // 
+            this.label111.AutoSize = true;
+            this.label111.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label111.Location = new System.Drawing.Point(29, 320);
+            this.label111.Name = "label111";
+            this.label111.Size = new System.Drawing.Size(218, 24);
+            this.label111.TabIndex = 80;
+            this.label111.Text = "CallGetBusinessItemsApi";
+            // 
+            // naverchannel_callGetBusinessInfoApi
+            // 
+            this.naverchannel_callGetBusinessInfoApi.Image = global::API_Monitor.Properties.Resources.gray;
+            this.naverchannel_callGetBusinessInfoApi.Location = new System.Drawing.Point(253, 273);
+            this.naverchannel_callGetBusinessInfoApi.Name = "naverchannel_callGetBusinessInfoApi";
+            this.naverchannel_callGetBusinessInfoApi.Size = new System.Drawing.Size(36, 35);
+            this.naverchannel_callGetBusinessInfoApi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.naverchannel_callGetBusinessInfoApi.TabIndex = 79;
+            this.naverchannel_callGetBusinessInfoApi.TabStop = false;
+            // 
+            // label112
+            // 
+            this.label112.AutoSize = true;
+            this.label112.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label112.Location = new System.Drawing.Point(43, 277);
+            this.label112.Name = "label112";
+            this.label112.Size = new System.Drawing.Size(204, 24);
+            this.label112.TabIndex = 78;
+            this.label112.Text = "CallGetBusinessInfoApi";
+            // 
+            // naverchannel_callUserInfoApi
+            // 
+            this.naverchannel_callUserInfoApi.Image = global::API_Monitor.Properties.Resources.gray;
+            this.naverchannel_callUserInfoApi.Location = new System.Drawing.Point(253, 230);
+            this.naverchannel_callUserInfoApi.Name = "naverchannel_callUserInfoApi";
+            this.naverchannel_callUserInfoApi.Size = new System.Drawing.Size(36, 35);
+            this.naverchannel_callUserInfoApi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.naverchannel_callUserInfoApi.TabIndex = 77;
+            this.naverchannel_callUserInfoApi.TabStop = false;
+            // 
+            // label113
+            // 
+            this.label113.AutoSize = true;
+            this.label113.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label113.Location = new System.Drawing.Point(109, 234);
+            this.label113.Name = "label113";
+            this.label113.Size = new System.Drawing.Size(138, 24);
+            this.label113.TabIndex = 76;
+            this.label113.Text = "CallUserInfoApi";
+            // 
+            // naverchannel_callFinalizeApi
+            // 
+            this.naverchannel_callFinalizeApi.Image = global::API_Monitor.Properties.Resources.gray;
+            this.naverchannel_callFinalizeApi.Location = new System.Drawing.Point(253, 188);
+            this.naverchannel_callFinalizeApi.Name = "naverchannel_callFinalizeApi";
+            this.naverchannel_callFinalizeApi.Size = new System.Drawing.Size(36, 35);
+            this.naverchannel_callFinalizeApi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.naverchannel_callFinalizeApi.TabIndex = 75;
+            this.naverchannel_callFinalizeApi.TabStop = false;
+            // 
+            // label114
+            // 
+            this.label114.AutoSize = true;
+            this.label114.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label114.Location = new System.Drawing.Point(113, 192);
+            this.label114.Name = "label114";
+            this.label114.Size = new System.Drawing.Size(134, 24);
+            this.label114.TabIndex = 74;
+            this.label114.Text = "CallFinalizeApi";
+            // 
+            // naverchannel_callLoginApi
+            // 
+            this.naverchannel_callLoginApi.Image = global::API_Monitor.Properties.Resources.gray;
+            this.naverchannel_callLoginApi.Location = new System.Drawing.Point(253, 145);
+            this.naverchannel_callLoginApi.Name = "naverchannel_callLoginApi";
+            this.naverchannel_callLoginApi.Size = new System.Drawing.Size(36, 35);
+            this.naverchannel_callLoginApi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.naverchannel_callLoginApi.TabIndex = 73;
+            this.naverchannel_callLoginApi.TabStop = false;
+            // 
+            // label115
+            // 
+            this.label115.AutoSize = true;
+            this.label115.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label115.Location = new System.Drawing.Point(131, 149);
+            this.label115.Name = "label115";
+            this.label115.Size = new System.Drawing.Size(116, 24);
+            this.label115.TabIndex = 72;
+            this.label115.Text = "CallLoginApi";
+            // 
+            // naverchannel_getSessionInfoApi
+            // 
+            this.naverchannel_getSessionInfoApi.Image = global::API_Monitor.Properties.Resources.gray;
+            this.naverchannel_getSessionInfoApi.Location = new System.Drawing.Point(253, 102);
+            this.naverchannel_getSessionInfoApi.Name = "naverchannel_getSessionInfoApi";
+            this.naverchannel_getSessionInfoApi.Size = new System.Drawing.Size(36, 35);
+            this.naverchannel_getSessionInfoApi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.naverchannel_getSessionInfoApi.TabIndex = 71;
+            this.naverchannel_getSessionInfoApi.TabStop = false;
+            // 
+            // label116
+            // 
+            this.label116.AutoSize = true;
+            this.label116.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label116.Location = new System.Drawing.Point(83, 106);
+            this.label116.Name = "label116";
+            this.label116.Size = new System.Drawing.Size(164, 24);
+            this.label116.TabIndex = 70;
+            this.label116.Text = "GetSessionInfoApi";
+            // 
+            // naverchannel_logOut
+            // 
+            this.naverchannel_logOut.Image = global::API_Monitor.Properties.Resources.gray;
+            this.naverchannel_logOut.Location = new System.Drawing.Point(253, 60);
+            this.naverchannel_logOut.Name = "naverchannel_logOut";
+            this.naverchannel_logOut.Size = new System.Drawing.Size(36, 35);
+            this.naverchannel_logOut.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.naverchannel_logOut.TabIndex = 69;
+            this.naverchannel_logOut.TabStop = false;
+            // 
+            // label117
+            // 
+            this.label117.AutoSize = true;
+            this.label117.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label117.Location = new System.Drawing.Point(175, 64);
+            this.label117.Name = "label117";
+            this.label117.Size = new System.Drawing.Size(72, 24);
+            this.label117.TabIndex = 68;
+            this.label117.Text = "LogOut";
+            // 
+            // naverchannel_logIn
+            // 
+            this.naverchannel_logIn.Image = global::API_Monitor.Properties.Resources.gray;
+            this.naverchannel_logIn.Location = new System.Drawing.Point(253, 16);
+            this.naverchannel_logIn.Name = "naverchannel_logIn";
+            this.naverchannel_logIn.Size = new System.Drawing.Size(36, 35);
+            this.naverchannel_logIn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.naverchannel_logIn.TabIndex = 67;
+            this.naverchannel_logIn.TabStop = false;
+            // 
+            // label118
+            // 
+            this.label118.AutoSize = true;
+            this.label118.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label118.Location = new System.Drawing.Point(190, 20);
+            this.label118.Name = "label118";
+            this.label118.Size = new System.Drawing.Size(57, 24);
+            this.label118.TabIndex = 66;
+            this.label118.Text = "LogIn";
+            // 
+            // naverchannel_patchSettingApi
+            // 
+            this.naverchannel_patchSettingApi.Image = global::API_Monitor.Properties.Resources.gray;
+            this.naverchannel_patchSettingApi.Location = new System.Drawing.Point(585, 145);
+            this.naverchannel_patchSettingApi.Name = "naverchannel_patchSettingApi";
+            this.naverchannel_patchSettingApi.Size = new System.Drawing.Size(36, 35);
+            this.naverchannel_patchSettingApi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.naverchannel_patchSettingApi.TabIndex = 95;
+            this.naverchannel_patchSettingApi.TabStop = false;
+            // 
+            // label119
+            // 
+            this.label119.AutoSize = true;
+            this.label119.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label119.Location = new System.Drawing.Point(437, 149);
+            this.label119.Name = "label119";
+            this.label119.Size = new System.Drawing.Size(142, 24);
+            this.label119.TabIndex = 94;
+            this.label119.Text = "PatchSettingApi";
+            // 
+            // naverchannel_getOrderStatsApi
+            // 
+            this.naverchannel_getOrderStatsApi.Image = global::API_Monitor.Properties.Resources.gray;
+            this.naverchannel_getOrderStatsApi.Location = new System.Drawing.Point(585, 102);
+            this.naverchannel_getOrderStatsApi.Name = "naverchannel_getOrderStatsApi";
+            this.naverchannel_getOrderStatsApi.Size = new System.Drawing.Size(36, 35);
+            this.naverchannel_getOrderStatsApi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.naverchannel_getOrderStatsApi.TabIndex = 93;
+            this.naverchannel_getOrderStatsApi.TabStop = false;
+            // 
+            // label120
+            // 
+            this.label120.AutoSize = true;
+            this.label120.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label120.Location = new System.Drawing.Point(424, 106);
+            this.label120.Name = "label120";
+            this.label120.Size = new System.Drawing.Size(155, 24);
+            this.label120.TabIndex = 92;
+            this.label120.Text = "GetOrderStatsApi";
+            // 
+            // naverchannel_getOrderList
+            // 
+            this.naverchannel_getOrderList.Image = global::API_Monitor.Properties.Resources.gray;
+            this.naverchannel_getOrderList.Location = new System.Drawing.Point(585, 60);
+            this.naverchannel_getOrderList.Name = "naverchannel_getOrderList";
+            this.naverchannel_getOrderList.Size = new System.Drawing.Size(36, 35);
+            this.naverchannel_getOrderList.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.naverchannel_getOrderList.TabIndex = 91;
+            this.naverchannel_getOrderList.TabStop = false;
+            // 
+            // label121
+            // 
+            this.label121.AutoSize = true;
+            this.label121.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label121.Location = new System.Drawing.Point(464, 64);
+            this.label121.Name = "label121";
+            this.label121.Size = new System.Drawing.Size(115, 24);
+            this.label121.TabIndex = 90;
+            this.label121.Text = "GetOrderList";
+            // 
+            // naverchannel_getAllOrders
+            // 
+            this.naverchannel_getAllOrders.Image = global::API_Monitor.Properties.Resources.gray;
+            this.naverchannel_getAllOrders.Location = new System.Drawing.Point(585, 16);
+            this.naverchannel_getAllOrders.Name = "naverchannel_getAllOrders";
+            this.naverchannel_getAllOrders.Size = new System.Drawing.Size(36, 35);
+            this.naverchannel_getAllOrders.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.naverchannel_getAllOrders.TabIndex = 89;
+            this.naverchannel_getAllOrders.TabStop = false;
+            // 
+            // label122
+            // 
+            this.label122.AutoSize = true;
+            this.label122.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label122.Location = new System.Drawing.Point(461, 20);
+            this.label122.Name = "label122";
+            this.label122.Size = new System.Drawing.Size(118, 24);
+            this.label122.TabIndex = 88;
+            this.label122.Text = "GetAllOrders";
             // 
             // Form1
             // 
@@ -3015,6 +3314,23 @@
             ((System.ComponentModel.ISupportInitialize)(this.coupangeats_web_getHomepageApi)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.coupangeats_web_logOut)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.coupangeats_web_logIn)).EndInit();
+            this.tabPage4.ResumeLayout(false);
+            this.tabPage4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_cancelOrderApi)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_startCookingApi)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_orderComplete)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_callGetBusinessItemsApi)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_callGetBusinessInfoApi)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_callUserInfoApi)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_callFinalizeApi)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_callLoginApi)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_getSessionInfoApi)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_logOut)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_logIn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_patchSettingApi)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_getOrderStatsApi)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_getOrderList)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_getAllOrders)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3027,13 +3343,6 @@
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.TabPage tabPage4;
-        private System.Windows.Forms.TabPage tabPage5;
-        private System.Windows.Forms.TabPage tabPage6;
-        private System.Windows.Forms.TabPage tabPage7;
-        private System.Windows.Forms.TabPage tabPage8;
-        private System.Windows.Forms.TabPage tabPage9;
-        private System.Windows.Forms.TabPage tabPage10;
-        private System.Windows.Forms.TabPage tabPage11;
         private System.Windows.Forms.PictureBox baemin_getRiderDistance;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
@@ -3252,6 +3561,36 @@
         private System.Windows.Forms.Label label108;
         private System.Windows.Forms.Label nChecked_API;
         private System.Windows.Forms.Label label110;
+        private System.Windows.Forms.PictureBox naverchannel_cancelOrderApi;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.PictureBox naverchannel_startCookingApi;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.PictureBox naverchannel_orderComplete;
+        private System.Windows.Forms.Label label109;
+        private System.Windows.Forms.PictureBox naverchannel_callGetBusinessItemsApi;
+        private System.Windows.Forms.Label label111;
+        private System.Windows.Forms.PictureBox naverchannel_callGetBusinessInfoApi;
+        private System.Windows.Forms.Label label112;
+        private System.Windows.Forms.PictureBox naverchannel_callUserInfoApi;
+        private System.Windows.Forms.Label label113;
+        private System.Windows.Forms.PictureBox naverchannel_callFinalizeApi;
+        private System.Windows.Forms.Label label114;
+        private System.Windows.Forms.PictureBox naverchannel_callLoginApi;
+        private System.Windows.Forms.Label label115;
+        private System.Windows.Forms.PictureBox naverchannel_getSessionInfoApi;
+        private System.Windows.Forms.Label label116;
+        private System.Windows.Forms.PictureBox naverchannel_logOut;
+        private System.Windows.Forms.Label label117;
+        private System.Windows.Forms.PictureBox naverchannel_logIn;
+        private System.Windows.Forms.Label label118;
+        private System.Windows.Forms.PictureBox naverchannel_patchSettingApi;
+        private System.Windows.Forms.Label label119;
+        private System.Windows.Forms.PictureBox naverchannel_getOrderStatsApi;
+        private System.Windows.Forms.Label label120;
+        private System.Windows.Forms.PictureBox naverchannel_getOrderList;
+        private System.Windows.Forms.Label label121;
+        private System.Windows.Forms.PictureBox naverchannel_getAllOrders;
+        private System.Windows.Forms.Label label122;
     }
 }
 
