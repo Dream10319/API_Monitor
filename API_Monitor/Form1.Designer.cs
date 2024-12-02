@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.baemin_logOut = new System.Windows.Forms.PictureBox();
@@ -244,13 +245,14 @@
             this.coupangeats_web_logIn = new System.Windows.Forms.PictureBox();
             this.label106 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.nTotal_API = new System.Windows.Forms.Label();
-            this.nError_API = new System.Windows.Forms.Label();
-            this.nChecked_API = new System.Windows.Forms.Label();
-            this.label110 = new System.Windows.Forms.Label();
+            this.naverchannel_patchSettingApi = new System.Windows.Forms.PictureBox();
+            this.label119 = new System.Windows.Forms.Label();
+            this.naverchannel_getOrderStatsApi = new System.Windows.Forms.PictureBox();
+            this.label120 = new System.Windows.Forms.Label();
+            this.naverchannel_getOrderList = new System.Windows.Forms.PictureBox();
+            this.label121 = new System.Windows.Forms.Label();
+            this.naverchannel_getAllOrders = new System.Windows.Forms.PictureBox();
+            this.label122 = new System.Windows.Forms.Label();
             this.naverchannel_cancelOrderApi = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.naverchannel_startCookingApi = new System.Windows.Forms.PictureBox();
@@ -273,14 +275,14 @@
             this.label117 = new System.Windows.Forms.Label();
             this.naverchannel_logIn = new System.Windows.Forms.PictureBox();
             this.label118 = new System.Windows.Forms.Label();
-            this.naverchannel_patchSettingApi = new System.Windows.Forms.PictureBox();
-            this.label119 = new System.Windows.Forms.Label();
-            this.naverchannel_getOrderStatsApi = new System.Windows.Forms.PictureBox();
-            this.label120 = new System.Windows.Forms.Label();
-            this.naverchannel_getOrderList = new System.Windows.Forms.PictureBox();
-            this.label121 = new System.Windows.Forms.Label();
-            this.naverchannel_getAllOrders = new System.Windows.Forms.PictureBox();
-            this.label122 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.nTotal_API = new System.Windows.Forms.Label();
+            this.nError_API = new System.Windows.Forms.Label();
+            this.nChecked_API = new System.Windows.Forms.Label();
+            this.label110 = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.baemin_logOut)).BeginInit();
@@ -393,6 +395,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.coupangeats_web_logOut)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.coupangeats_web_logIn)).BeginInit();
             this.tabPage4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_patchSettingApi)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_getOrderStatsApi)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_getOrderList)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_getAllOrders)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.naverchannel_cancelOrderApi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.naverchannel_startCookingApi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.naverchannel_orderComplete)).BeginInit();
@@ -404,10 +410,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.naverchannel_getSessionInfoApi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.naverchannel_logOut)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.naverchannel_logIn)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_patchSettingApi)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_getOrderStatsApi)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_getOrderList)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_getAllOrders)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -2808,76 +2810,85 @@
             this.tabPage4.Text = "NaverChannel";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // naverchannel_patchSettingApi
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 15);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(116, 25);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Total APIs:";
+            this.naverchannel_patchSettingApi.Image = global::API_Monitor.Properties.Resources.gray;
+            this.naverchannel_patchSettingApi.Location = new System.Drawing.Point(585, 145);
+            this.naverchannel_patchSettingApi.Name = "naverchannel_patchSettingApi";
+            this.naverchannel_patchSettingApi.Size = new System.Drawing.Size(36, 35);
+            this.naverchannel_patchSettingApi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.naverchannel_patchSettingApi.TabIndex = 95;
+            this.naverchannel_patchSettingApi.TabStop = false;
             // 
-            // label3
+            // label119
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(510, 15);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(207, 25);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Detected Error APIs:";
+            this.label119.AutoSize = true;
+            this.label119.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label119.Location = new System.Drawing.Point(437, 149);
+            this.label119.Name = "label119";
+            this.label119.Size = new System.Drawing.Size(142, 24);
+            this.label119.TabIndex = 94;
+            this.label119.Text = "PatchSettingApi";
             // 
-            // button2
+            // naverchannel_getOrderStatsApi
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(821, 12);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(86, 31);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Refresh";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.naverchannel_getOrderStatsApi.Image = global::API_Monitor.Properties.Resources.gray;
+            this.naverchannel_getOrderStatsApi.Location = new System.Drawing.Point(585, 102);
+            this.naverchannel_getOrderStatsApi.Name = "naverchannel_getOrderStatsApi";
+            this.naverchannel_getOrderStatsApi.Size = new System.Drawing.Size(36, 35);
+            this.naverchannel_getOrderStatsApi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.naverchannel_getOrderStatsApi.TabIndex = 93;
+            this.naverchannel_getOrderStatsApi.TabStop = false;
             // 
-            // nTotal_API
+            // label120
             // 
-            this.nTotal_API.AutoSize = true;
-            this.nTotal_API.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nTotal_API.Location = new System.Drawing.Point(123, 15);
-            this.nTotal_API.Name = "nTotal_API";
-            this.nTotal_API.Size = new System.Drawing.Size(30, 25);
-            this.nTotal_API.TabIndex = 5;
-            this.nTotal_API.Text = "...";
+            this.label120.AutoSize = true;
+            this.label120.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label120.Location = new System.Drawing.Point(424, 106);
+            this.label120.Name = "label120";
+            this.label120.Size = new System.Drawing.Size(155, 24);
+            this.label120.TabIndex = 92;
+            this.label120.Text = "GetOrderStatsApi";
             // 
-            // nError_API
+            // naverchannel_getOrderList
             // 
-            this.nError_API.AutoSize = true;
-            this.nError_API.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nError_API.Location = new System.Drawing.Point(712, 15);
-            this.nError_API.Name = "nError_API";
-            this.nError_API.Size = new System.Drawing.Size(30, 25);
-            this.nError_API.TabIndex = 6;
-            this.nError_API.Text = "...";
+            this.naverchannel_getOrderList.Image = global::API_Monitor.Properties.Resources.gray;
+            this.naverchannel_getOrderList.Location = new System.Drawing.Point(585, 60);
+            this.naverchannel_getOrderList.Name = "naverchannel_getOrderList";
+            this.naverchannel_getOrderList.Size = new System.Drawing.Size(36, 35);
+            this.naverchannel_getOrderList.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.naverchannel_getOrderList.TabIndex = 91;
+            this.naverchannel_getOrderList.TabStop = false;
             // 
-            // nChecked_API
+            // label121
             // 
-            this.nChecked_API.AutoSize = true;
-            this.nChecked_API.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nChecked_API.Location = new System.Drawing.Point(389, 15);
-            this.nChecked_API.Name = "nChecked_API";
-            this.nChecked_API.Size = new System.Drawing.Size(30, 25);
-            this.nChecked_API.TabIndex = 8;
-            this.nChecked_API.Text = "...";
+            this.label121.AutoSize = true;
+            this.label121.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label121.Location = new System.Drawing.Point(464, 64);
+            this.label121.Name = "label121";
+            this.label121.Size = new System.Drawing.Size(115, 24);
+            this.label121.TabIndex = 90;
+            this.label121.Text = "GetOrderList";
             // 
-            // label110
+            // naverchannel_getAllOrders
             // 
-            this.label110.AutoSize = true;
-            this.label110.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label110.Location = new System.Drawing.Point(241, 15);
-            this.label110.Name = "label110";
-            this.label110.Size = new System.Drawing.Size(153, 25);
-            this.label110.TabIndex = 7;
-            this.label110.Text = "Checked APIs:";
+            this.naverchannel_getAllOrders.Image = global::API_Monitor.Properties.Resources.gray;
+            this.naverchannel_getAllOrders.Location = new System.Drawing.Point(585, 16);
+            this.naverchannel_getAllOrders.Name = "naverchannel_getAllOrders";
+            this.naverchannel_getAllOrders.Size = new System.Drawing.Size(36, 35);
+            this.naverchannel_getAllOrders.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.naverchannel_getAllOrders.TabIndex = 89;
+            this.naverchannel_getAllOrders.TabStop = false;
+            // 
+            // label122
+            // 
+            this.label122.AutoSize = true;
+            this.label122.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label122.Location = new System.Drawing.Point(461, 20);
+            this.label122.Name = "label122";
+            this.label122.Size = new System.Drawing.Size(118, 24);
+            this.label122.TabIndex = 88;
+            this.label122.Text = "GetAllOrders";
             // 
             // naverchannel_cancelOrderApi
             // 
@@ -3099,85 +3110,82 @@
             this.label118.TabIndex = 66;
             this.label118.Text = "LogIn";
             // 
-            // naverchannel_patchSettingApi
+            // label2
             // 
-            this.naverchannel_patchSettingApi.Image = global::API_Monitor.Properties.Resources.gray;
-            this.naverchannel_patchSettingApi.Location = new System.Drawing.Point(585, 145);
-            this.naverchannel_patchSettingApi.Name = "naverchannel_patchSettingApi";
-            this.naverchannel_patchSettingApi.Size = new System.Drawing.Size(36, 35);
-            this.naverchannel_patchSettingApi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.naverchannel_patchSettingApi.TabIndex = 95;
-            this.naverchannel_patchSettingApi.TabStop = false;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(12, 15);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(116, 25);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Total APIs:";
             // 
-            // label119
+            // label3
             // 
-            this.label119.AutoSize = true;
-            this.label119.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label119.Location = new System.Drawing.Point(437, 149);
-            this.label119.Name = "label119";
-            this.label119.Size = new System.Drawing.Size(142, 24);
-            this.label119.TabIndex = 94;
-            this.label119.Text = "PatchSettingApi";
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(510, 15);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(207, 25);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Detected Error APIs:";
             // 
-            // naverchannel_getOrderStatsApi
+            // button2
             // 
-            this.naverchannel_getOrderStatsApi.Image = global::API_Monitor.Properties.Resources.gray;
-            this.naverchannel_getOrderStatsApi.Location = new System.Drawing.Point(585, 102);
-            this.naverchannel_getOrderStatsApi.Name = "naverchannel_getOrderStatsApi";
-            this.naverchannel_getOrderStatsApi.Size = new System.Drawing.Size(36, 35);
-            this.naverchannel_getOrderStatsApi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.naverchannel_getOrderStatsApi.TabIndex = 93;
-            this.naverchannel_getOrderStatsApi.TabStop = false;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(821, 12);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(86, 31);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "Refresh";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // label120
+            // nTotal_API
             // 
-            this.label120.AutoSize = true;
-            this.label120.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label120.Location = new System.Drawing.Point(424, 106);
-            this.label120.Name = "label120";
-            this.label120.Size = new System.Drawing.Size(155, 24);
-            this.label120.TabIndex = 92;
-            this.label120.Text = "GetOrderStatsApi";
+            this.nTotal_API.AutoSize = true;
+            this.nTotal_API.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nTotal_API.Location = new System.Drawing.Point(123, 15);
+            this.nTotal_API.Name = "nTotal_API";
+            this.nTotal_API.Size = new System.Drawing.Size(30, 25);
+            this.nTotal_API.TabIndex = 5;
+            this.nTotal_API.Text = "...";
             // 
-            // naverchannel_getOrderList
+            // nError_API
             // 
-            this.naverchannel_getOrderList.Image = global::API_Monitor.Properties.Resources.gray;
-            this.naverchannel_getOrderList.Location = new System.Drawing.Point(585, 60);
-            this.naverchannel_getOrderList.Name = "naverchannel_getOrderList";
-            this.naverchannel_getOrderList.Size = new System.Drawing.Size(36, 35);
-            this.naverchannel_getOrderList.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.naverchannel_getOrderList.TabIndex = 91;
-            this.naverchannel_getOrderList.TabStop = false;
+            this.nError_API.AutoSize = true;
+            this.nError_API.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nError_API.Location = new System.Drawing.Point(712, 15);
+            this.nError_API.Name = "nError_API";
+            this.nError_API.Size = new System.Drawing.Size(30, 25);
+            this.nError_API.TabIndex = 6;
+            this.nError_API.Text = "...";
             // 
-            // label121
+            // nChecked_API
             // 
-            this.label121.AutoSize = true;
-            this.label121.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label121.Location = new System.Drawing.Point(464, 64);
-            this.label121.Name = "label121";
-            this.label121.Size = new System.Drawing.Size(115, 24);
-            this.label121.TabIndex = 90;
-            this.label121.Text = "GetOrderList";
+            this.nChecked_API.AutoSize = true;
+            this.nChecked_API.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nChecked_API.Location = new System.Drawing.Point(389, 15);
+            this.nChecked_API.Name = "nChecked_API";
+            this.nChecked_API.Size = new System.Drawing.Size(30, 25);
+            this.nChecked_API.TabIndex = 8;
+            this.nChecked_API.Text = "...";
             // 
-            // naverchannel_getAllOrders
+            // label110
             // 
-            this.naverchannel_getAllOrders.Image = global::API_Monitor.Properties.Resources.gray;
-            this.naverchannel_getAllOrders.Location = new System.Drawing.Point(585, 16);
-            this.naverchannel_getAllOrders.Name = "naverchannel_getAllOrders";
-            this.naverchannel_getAllOrders.Size = new System.Drawing.Size(36, 35);
-            this.naverchannel_getAllOrders.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.naverchannel_getAllOrders.TabIndex = 89;
-            this.naverchannel_getAllOrders.TabStop = false;
+            this.label110.AutoSize = true;
+            this.label110.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label110.Location = new System.Drawing.Point(241, 15);
+            this.label110.Name = "label110";
+            this.label110.Size = new System.Drawing.Size(153, 25);
+            this.label110.TabIndex = 7;
+            this.label110.Text = "Checked APIs:";
             // 
-            // label122
+            // timer1
             // 
-            this.label122.AutoSize = true;
-            this.label122.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label122.Location = new System.Drawing.Point(461, 20);
-            this.label122.Name = "label122";
-            this.label122.Size = new System.Drawing.Size(118, 24);
-            this.label122.TabIndex = 88;
-            this.label122.Text = "GetAllOrders";
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form1
             // 
@@ -3316,6 +3324,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.coupangeats_web_logIn)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_patchSettingApi)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_getOrderStatsApi)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_getOrderList)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_getAllOrders)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.naverchannel_cancelOrderApi)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.naverchannel_startCookingApi)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.naverchannel_orderComplete)).EndInit();
@@ -3327,10 +3339,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.naverchannel_getSessionInfoApi)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.naverchannel_logOut)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.naverchannel_logIn)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_patchSettingApi)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_getOrderStatsApi)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_getOrderList)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.naverchannel_getAllOrders)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3591,6 +3599,7 @@
         private System.Windows.Forms.Label label121;
         private System.Windows.Forms.PictureBox naverchannel_getAllOrders;
         private System.Windows.Forms.Label label122;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

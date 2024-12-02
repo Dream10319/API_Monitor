@@ -1,6 +1,7 @@
 ﻿using API_Monitor.Properties;
 using Newtonsoft.Json;
 using System;
+using System.Linq;
 using System.Windows.Forms;
 using WebSocketSharp;
 
@@ -9,7 +10,7 @@ namespace API_Monitor
     public partial class Form1 : Form
     {
         WebSocket ws;
-
+        public int nTotal, nChecked, nError;
         public Form1()
         {
             InitializeComponent();
@@ -21,6 +22,9 @@ namespace API_Monitor
         // Initialize WebSocket in Form_Load event
         private void Form1_Load(object sender, EventArgs e)
         {
+
+            getAPI_Status();
+
             // Initialize the WebSocket connection
             ws = new WebSocket("ws://3.34.251.227:3000");
 
@@ -35,8 +39,16 @@ namespace API_Monitor
                         string control_name = aPI_Response.shop_type.ToLower() + "_" + aPI_Response.api_type[0].ToString().ToLower() + aPI_Response.api_type.Substring(1);
                         PictureBox control = (PictureBox)this.Controls.Find(control_name, true)[0];
 
-                        if (aPI_Response.status) control.Image = Resources.green;
-                        else control.Image = Resources.red;
+                        if (aPI_Response.status)
+                        {
+                            control.Image = Resources.green;
+                            control.Tag = "green";
+                        }
+                        else
+                        {
+                            control.Image = Resources.red;
+                            control.Tag = "red";
+                        }
 
                         Console.WriteLine("Received from server: " + eArgs.Data);
                         // Example: You can update a TextBox or ListBox with the received data
@@ -89,10 +101,35 @@ namespace API_Monitor
             }
         }
 
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            getAPI_Status();
+        }
+
         private void button2_Click(object sender, EventArgs e)
         {
             ws.Close();
             ws.Connect();
+        }
+
+        public void getAPI_Status()
+        {
+            foreach (TabPage tabPage in tabControl1.TabPages)
+            {
+                foreach (Control control in tabPage.Controls)
+                {
+                    if (control is PictureBox)
+                    {
+                        if (((PictureBox)control).Tag?.ToString() == "green" || ((PictureBox)control).Tag?.ToString() == "red") nChecked++;
+                        if(((PictureBox)control).Tag?.ToString() == "red") nError++;
+                        nTotal++;
+                    }
+                }
+            }
+            nTotal_API.Text = nTotal.ToString();
+            nChecked_API.Text = nChecked.ToString();
+            nError_API.Text = nError.ToString();
+            nTotal = nChecked = nError = 0;
         }
 
     }
