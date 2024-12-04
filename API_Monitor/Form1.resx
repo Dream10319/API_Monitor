@@ -124,13 +124,16 @@
   <data name="pageHeader1.Icon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wgAADsIBFShKgAAAAPlJREFUOE9jYHDr+8PoMRErZnDrB+LeVtNi9cVmZer/zSo0ELhU4z8Do8eE/yLp
+        wQAADsEBuJFr7QAAAPlJREFUOE9jYHDr+8PoMRErZnDrB+LeVtNi9cVmZer/zSo0ELhU4z8Do8eE/yLp
         G7Fi7ojF/xlc+zpAml0n6f33mW8IxyADBlAzg/uE/3yxy7FijpA5BDS79S3Hi117I3Bqns0n2o+O5/CJ
         RTMgAZya5/GJ/z/EJgHH2zjE/8/iE10M1QcGIM12bdr/nXt14disDKh5Ia/Y/9sMknB8kgWbZrUwkxL1
         DnSMU/PeJo6ovS1cq/Bh3JqbOTuuTeX9/3IxP1a8v5ULt7NBmu/P4f3/c50gVnxgYDXP5hP7ORcJz+EV
         /TmLT2weUHPL3hbOn0C/YcV7mrl+AgAt+qYuxviV1AAAAABJRU5ErkJggg==
 </value>
   </data>
+  <metadata name="tooltipComponent1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>105, 17</value>
+  </metadata>
   <metadata name="tooltipComponent1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>105, 17</value>
   </metadata>

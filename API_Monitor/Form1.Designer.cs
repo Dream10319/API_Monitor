@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            AntdUI.Tabs.StyleLine styleLine1 = new AntdUI.Tabs.StyleLine();
+            AntdUI.Tabs.StyleLine styleLine4 = new AntdUI.Tabs.StyleLine();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tabControl1 = new AntdUI.Tabs();
             this.tabBaemin = new AntdUI.TabPage();
@@ -438,7 +438,7 @@
             this.tabControl1.Pages.Add(this.tabCoupang_web);
             this.tabControl1.Pages.Add(this.tabNaver);
             this.tabControl1.Size = new System.Drawing.Size(899, 521);
-            this.tabControl1.Style = styleLine1;
+            this.tabControl1.Style = styleLine4;
             this.tabControl1.TabIndex = 0;
             // 
             // tabBaemin
@@ -3203,6 +3203,7 @@
             // 
             this.nTotal_API.AutoSize = true;
             this.nTotal_API.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nTotal_API.ForeColor = System.Drawing.Color.DarkViolet;
             this.nTotal_API.Location = new System.Drawing.Point(123, 57);
             this.nTotal_API.Name = "nTotal_API";
             this.nTotal_API.Size = new System.Drawing.Size(30, 25);
@@ -3214,6 +3215,7 @@
             this.nError_API.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.nError_API.AutoSize = true;
             this.nError_API.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nError_API.ForeColor = System.Drawing.Color.Red;
             this.nError_API.Location = new System.Drawing.Point(712, 57);
             this.nError_API.Name = "nError_API";
             this.nError_API.Size = new System.Drawing.Size(30, 25);
@@ -3225,6 +3227,7 @@
             this.nChecked_API.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.nChecked_API.AutoSize = true;
             this.nChecked_API.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nChecked_API.ForeColor = System.Drawing.Color.Blue;
             this.nChecked_API.Location = new System.Drawing.Point(399, 57);
             this.nChecked_API.Name = "nChecked_API";
             this.nChecked_API.Size = new System.Drawing.Size(30, 25);
