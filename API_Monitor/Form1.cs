@@ -50,8 +50,8 @@ namespace API_Monitor
                         {
                             control.Image = Resources.red;
                             control.Tag = "red";
-                            /*if (aPI_Response != aPi_temp)
-                                AntdUI.Notification.info(this, aPI_Response.shop_type + " API", "API type: " + aPI_Response.api_type + "\nAPI url: " + aPI_Response.url, AntdUI.TAlignFrom.BR, Font);*/
+                            if (aPI_Response != aPi_temp)
+                                AntdUI.Notification.error(this, aPI_Response.shop_type + " API", "API type: " + aPI_Response.api_type + "\nAPI url: " + aPI_Response.url, AntdUI.TAlignFrom.BR, Font);
                         }
                         aPi_temp = aPI_Response;
                         Console.WriteLine("Received from server: " + eArgs.Data);
@@ -128,8 +128,10 @@ namespace API_Monitor
                 ws.Close();
 
                 nChecked = nError = 0;
+
                 foreach (AntdUI.TabPage tabPage in tabControl1.Pages)
                 {
+                    tabPage.Badge = null;
                     foreach (Control control in tabPage.Controls)
                     {
                         if (control is PictureBox)
@@ -148,6 +150,7 @@ namespace API_Monitor
                 ws.Connect() ;
                 if (btn.IsDisposed) return;
                 btn.Loading = false;
+
             });
         }
 
@@ -190,13 +193,13 @@ namespace API_Monitor
                             }
                             if (control.Name.Contains("yogiyo"))
                             {
-                                if (control.Name.Contains("web")) nYogiyo++;
-                                else nYogiyo_web++;
+                                if (control.Name.Contains("web")) nYogiyo_web++;
+                                else nYogiyo++;
                             }
                             if (control.Name.Contains("coupangeats"))
                             {
-                                if (control.Name.Contains("web")) nCoupang++;
-                                else nCoupang_web++;
+                                if (control.Name.Contains("web")) nCoupang_web++;
+                                else nCoupang++;
                             }
                             if (control.Name.Contains("naverchannel")) nNaver++;
                         }

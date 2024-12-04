@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            AntdUI.Tabs.StyleLine styleLine6 = new AntdUI.Tabs.StyleLine();
+            AntdUI.Tabs.StyleLine styleLine1 = new AntdUI.Tabs.StyleLine();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tabControl1 = new AntdUI.Tabs();
             this.tabBaemin = new AntdUI.TabPage();
@@ -438,7 +438,7 @@
             this.tabControl1.Pages.Add(this.tabCoupang_web);
             this.tabControl1.Pages.Add(this.tabNaver);
             this.tabControl1.Size = new System.Drawing.Size(899, 521);
-            this.tabControl1.Style = styleLine6;
+            this.tabControl1.Style = styleLine1;
             this.tabControl1.TabIndex = 0;
             // 
             // tabBaemin
@@ -3253,13 +3253,13 @@
             this.btn_mode.Dock = System.Windows.Forms.DockStyle.Right;
             this.btn_mode.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_mode.Ghost = true;
-            this.btn_mode.IconSvg = "SunOutlined";
+            this.btn_mode.IconSvg = "MoonOutlined";
             this.btn_mode.Location = new System.Drawing.Point(729, 0);
             this.btn_mode.Name = "btn_mode";
             this.btn_mode.Radius = 0;
             this.btn_mode.Size = new System.Drawing.Size(50, 40);
             this.btn_mode.TabIndex = 0;
-            this.btn_mode.ToggleIconSvg = "MoonOutlined";
+            this.btn_mode.ToggleIconSvg = "SunOutlined";
             this.btn_mode.WaveSize = 0;
             this.btn_mode.Click += new System.EventHandler(this.btn_mode_Click);
             // 
@@ -3315,6 +3315,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "API Monitor";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
