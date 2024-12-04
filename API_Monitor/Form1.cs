@@ -2,6 +2,7 @@
 using Newtonsoft.Json;
 using System;
 using System.Drawing;
+using System.Threading;
 using System.Windows.Forms;
 using WebSocketSharp;
 
@@ -106,6 +107,27 @@ namespace API_Monitor
             getAPI_Status();
         }
 
+        private void btn_refresh_Click(object sender, EventArgs e)
+        {
+            AntdUI.Button btn = (AntdUI.Button)sender;
+            btn.LoadingWaveValue = 0;
+            btn.Loading = true;
+            AntdUI.ITask.Run(() =>
+            {
+                Thread.Sleep(500);
+                for (int i = 0; i < 101; i++)
+                {
+                    btn.LoadingWaveValue = i / 100F;
+                    Thread.Sleep(5);
+                }
+                Thread.Sleep(1000);
+            }, () =>
+            {
+                if (btn.IsDisposed) return;
+                btn.Loading = false;
+            });
+        }
+
         private void btn_mode_Click(object sender, EventArgs e)
         {
             var color = AntdUI.Style.Db.Primary;
@@ -124,12 +146,6 @@ namespace API_Monitor
                 ForeColor = Color.Black;
             }
             OnSizeChanged(e);
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            ws.Close();
-            ws.Connect();
         }
 
         public void getAPI_Status()

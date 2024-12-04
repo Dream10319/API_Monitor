@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            AntdUI.Tabs.StyleLine styleLine1 = new AntdUI.Tabs.StyleLine();
+            AntdUI.Tabs.StyleLine styleLine4 = new AntdUI.Tabs.StyleLine();
             this.tabControl1 = new AntdUI.Tabs();
             this.tabPage1 = new AntdUI.TabPage();
             this.baemin_logOut = new System.Windows.Forms.PictureBox();
@@ -278,7 +278,6 @@
             this.label118 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
             this.nTotal_API = new System.Windows.Forms.Label();
             this.nError_API = new System.Windows.Forms.Label();
             this.nChecked_API = new System.Windows.Forms.Label();
@@ -286,6 +285,8 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.btn_mode = new AntdUI.Button();
             this.pageHeader1 = new AntdUI.PageHeader();
+            this.btn_refresh = new AntdUI.Button();
+            this.tooltipComponent1 = new AntdUI.TooltipComponent();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.baemin_logOut)).BeginInit();
@@ -430,10 +431,9 @@
             this.tabControl1.Pages.Add(this.tabPage3);
             this.tabControl1.Pages.Add(this.tabPage14);
             this.tabControl1.Pages.Add(this.tabPage4);
-            this.tabControl1.SelectedIndex = 1;
             this.tabControl1.Size = new System.Drawing.Size(899, 521);
-            styleLine1.Radius = 5;
-            this.tabControl1.Style = styleLine1;
+            styleLine4.Radius = 5;
+            this.tabControl1.Style = styleLine4;
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -488,7 +488,7 @@
             this.tabPage1.Controls.Add(this.label6);
             this.tabPage1.Controls.Add(this.baemin_getRiderDistance);
             this.tabPage1.Controls.Add(this.label1);
-            this.tabPage1.Location = new System.Drawing.Point(-893, -493);
+            this.tabPage1.Location = new System.Drawing.Point(3, 25);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(893, 493);
@@ -1011,7 +1011,7 @@
             this.tabPage12.Controls.Add(this.label31);
             this.tabPage12.Controls.Add(this.baemin_web_login1);
             this.tabPage12.Controls.Add(this.label30);
-            this.tabPage12.Location = new System.Drawing.Point(3, 25);
+            this.tabPage12.Location = new System.Drawing.Point(-893, -493);
             this.tabPage12.Name = "tabPage12";
             this.tabPage12.Size = new System.Drawing.Size(893, 493);
             this.tabPage12.TabIndex = 11;
@@ -3132,17 +3132,6 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Detected Error APIs:";
             // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(821, 51);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(86, 31);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Refresh";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // nTotal_API
             // 
             this.nTotal_API.AutoSize = true;
@@ -3221,18 +3210,32 @@
             this.pageHeader1.TabIndex = 9;
             this.pageHeader1.Text = "API Monitor";
             // 
+            // btn_refresh
+            // 
+            this.btn_refresh.AutoSizeMode = AntdUI.TAutoSize.Auto;
+            this.btn_refresh.IconSvg = "ReloadOutlined";
+            this.btn_refresh.LoadingWaveVertical = true;
+            this.btn_refresh.Location = new System.Drawing.Point(873, 48);
+            this.btn_refresh.Name = "btn_refresh";
+            this.btn_refresh.Shape = AntdUI.TShape.Circle;
+            this.btn_refresh.Size = new System.Drawing.Size(38, 38);
+            this.btn_refresh.TabIndex = 10;
+            this.tooltipComponent1.SetTip(this.btn_refresh, "Refresh websocket");
+            this.btn_refresh.Type = AntdUI.TTypeMini.Primary;
+            this.btn_refresh.Click += new System.EventHandler(this.btn_refresh_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(923, 625);
+            this.Controls.Add(this.btn_refresh);
             this.Controls.Add(this.pageHeader1);
             this.Controls.Add(this.nChecked_API);
             this.Controls.Add(this.label110);
             this.Controls.Add(this.nError_API);
             this.Controls.Add(this.nTotal_API);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.tabControl1);
@@ -3392,7 +3395,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label nTotal_API;
         private System.Windows.Forms.Label nError_API;
         private System.Windows.Forms.PictureBox baemin_refreshToken;
@@ -3639,6 +3641,8 @@
         private System.Windows.Forms.Timer timer1;
         private AntdUI.Button btn_mode;
         private AntdUI.PageHeader pageHeader1;
+        private AntdUI.Button btn_refresh;
+        private AntdUI.TooltipComponent tooltipComponent1;
     }
 }
 
