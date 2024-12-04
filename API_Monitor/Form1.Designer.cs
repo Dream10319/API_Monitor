@@ -29,7 +29,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            AntdUI.Tabs.StyleLine styleLine4 = new AntdUI.Tabs.StyleLine();
+            AntdUI.Tabs.StyleLine styleLine6 = new AntdUI.Tabs.StyleLine();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tabControl1 = new AntdUI.Tabs();
             this.tabBaemin = new AntdUI.TabPage();
             this.baemin_logOut = new System.Windows.Forms.PictureBox();
@@ -437,7 +438,7 @@
             this.tabControl1.Pages.Add(this.tabCoupang_web);
             this.tabControl1.Pages.Add(this.tabNaver);
             this.tabControl1.Size = new System.Drawing.Size(899, 521);
-            this.tabControl1.Style = styleLine4;
+            this.tabControl1.Style = styleLine6;
             this.tabControl1.TabIndex = 0;
             // 
             // tabBaemin
@@ -3273,6 +3274,7 @@
             this.pageHeader1.Dock = System.Windows.Forms.DockStyle.Top;
             this.pageHeader1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pageHeader1.ForeColor = System.Drawing.Color.Black;
+            this.pageHeader1.Icon = ((System.Drawing.Image)(resources.GetObject("pageHeader1.Icon")));
             this.pageHeader1.Location = new System.Drawing.Point(0, 0);
             this.pageHeader1.Name = "pageHeader1";
             this.pageHeader1.ShowButton = true;
@@ -3310,7 +3312,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.tabControl1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "API Monitor";

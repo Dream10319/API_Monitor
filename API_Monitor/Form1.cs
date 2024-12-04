@@ -12,6 +12,7 @@ namespace API_Monitor
     {
         WebSocket ws;
         public int nTotal, nChecked, nError, nBaemin, nBaemin_web, nYogiyo, nYogiyo_web, nCoupang, nCoupang_web, nNaver;
+        API_Response aPi_temp = new API_Response();
         public Form1()
         {
             InitializeComponent();
@@ -49,8 +50,10 @@ namespace API_Monitor
                         {
                             control.Image = Resources.red;
                             control.Tag = "red";
+                            /*if (aPI_Response != aPi_temp)
+                                AntdUI.Notification.info(this, aPI_Response.shop_type + " API", "API type: " + aPI_Response.api_type + "\nAPI url: " + aPI_Response.url, AntdUI.TAlignFrom.BR, Font);*/
                         }
-
+                        aPi_temp = aPI_Response;
                         Console.WriteLine("Received from server: " + eArgs.Data);
                         // Example: You can update a TextBox or ListBox with the received data
                     }
