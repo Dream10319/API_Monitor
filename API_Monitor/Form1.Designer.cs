@@ -29,8 +29,9 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
+            AntdUI.Tabs.StyleLine styleLine1 = new AntdUI.Tabs.StyleLine();
+            this.tabControl1 = new AntdUI.Tabs();
+            this.tabPage1 = new AntdUI.TabPage();
             this.baemin_logOut = new System.Windows.Forms.PictureBox();
             this.label29 = new System.Windows.Forms.Label();
             this.baemin_refreshToken2 = new System.Windows.Forms.PictureBox();
@@ -81,7 +82,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.baemin_getRiderDistance = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.tabPage12 = new System.Windows.Forms.TabPage();
+            this.tabPage12 = new AntdUI.TabPage();
             this.baemin_web_postReviews = new System.Windows.Forms.PictureBox();
             this.label36 = new System.Windows.Forms.Label();
             this.baemin_web_getReviews = new System.Windows.Forms.PictureBox();
@@ -96,7 +97,7 @@
             this.label31 = new System.Windows.Forms.Label();
             this.baemin_web_login1 = new System.Windows.Forms.PictureBox();
             this.label30 = new System.Windows.Forms.Label();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new AntdUI.TabPage();
             this.yogiyo_logIn3 = new System.Windows.Forms.PictureBox();
             this.label60 = new System.Windows.Forms.Label();
             this.yogiyo_logIn2 = new System.Windows.Forms.PictureBox();
@@ -145,7 +146,7 @@
             this.label46 = new System.Windows.Forms.Label();
             this.yogiyo_getAppConfigApi = new System.Windows.Forms.PictureBox();
             this.label47 = new System.Windows.Forms.Label();
-            this.tabPage13 = new System.Windows.Forms.TabPage();
+            this.tabPage13 = new AntdUI.TabPage();
             this.yogiyo_web_getMenus = new System.Windows.Forms.PictureBox();
             this.label74 = new System.Windows.Forms.Label();
             this.yogiyo_web_postReviewReply = new System.Windows.Forms.PictureBox();
@@ -174,7 +175,7 @@
             this.label70 = new System.Windows.Forms.Label();
             this.yogiyo_web_logout = new System.Windows.Forms.PictureBox();
             this.label71 = new System.Windows.Forms.Label();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.tabPage3 = new AntdUI.TabPage();
             this.coupangeats_callLoginApi = new System.Windows.Forms.PictureBox();
             this.label87 = new System.Windows.Forms.Label();
             this.coupangeats_logOut = new System.Windows.Forms.PictureBox();
@@ -217,7 +218,7 @@
             this.label84 = new System.Windows.Forms.Label();
             this.coupangeats_getRestaurants = new System.Windows.Forms.PictureBox();
             this.label85 = new System.Windows.Forms.Label();
-            this.tabPage14 = new System.Windows.Forms.TabPage();
+            this.tabPage14 = new AntdUI.TabPage();
             this.coupangeats_web_addReviewReplyApi = new System.Windows.Forms.PictureBox();
             this.label107 = new System.Windows.Forms.Label();
             this.coupangeats_web_getReviewSummaryApi = new System.Windows.Forms.PictureBox();
@@ -244,7 +245,7 @@
             this.label105 = new System.Windows.Forms.Label();
             this.coupangeats_web_logIn = new System.Windows.Forms.PictureBox();
             this.label106 = new System.Windows.Forms.Label();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.tabPage4 = new AntdUI.TabPage();
             this.naverchannel_patchSettingApi = new System.Windows.Forms.PictureBox();
             this.label119 = new System.Windows.Forms.Label();
             this.naverchannel_getOrderStatsApi = new System.Windows.Forms.PictureBox();
@@ -283,6 +284,8 @@
             this.nChecked_API = new System.Windows.Forms.Label();
             this.label110 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.btn_mode = new AntdUI.Button();
+            this.pageHeader1 = new AntdUI.PageHeader();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.baemin_logOut)).BeginInit();
@@ -410,21 +413,27 @@
             ((System.ComponentModel.ISupportInitialize)(this.naverchannel_getSessionInfoApi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.naverchannel_logOut)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.naverchannel_logIn)).BeginInit();
+            this.pageHeader1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage12);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage13);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Controls.Add(this.tabPage14);
-            this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Location = new System.Drawing.Point(12, 53);
+            this.tabControl1.Centered = true;
+            this.tabControl1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.tabControl1.ItemSize = 110;
+            this.tabControl1.Location = new System.Drawing.Point(12, 92);
             this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Pages.Add(this.tabPage1);
+            this.tabControl1.Pages.Add(this.tabPage12);
+            this.tabControl1.Pages.Add(this.tabPage2);
+            this.tabControl1.Pages.Add(this.tabPage13);
+            this.tabControl1.Pages.Add(this.tabPage3);
+            this.tabControl1.Pages.Add(this.tabPage14);
+            this.tabControl1.Pages.Add(this.tabPage4);
+            this.tabControl1.SelectedIndex = 1;
             this.tabControl1.Size = new System.Drawing.Size(899, 521);
+            styleLine1.Radius = 5;
+            this.tabControl1.Style = styleLine1;
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -479,13 +488,12 @@
             this.tabPage1.Controls.Add(this.label6);
             this.tabPage1.Controls.Add(this.baemin_getRiderDistance);
             this.tabPage1.Controls.Add(this.label1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Location = new System.Drawing.Point(-893, -493);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(891, 495);
+            this.tabPage1.Size = new System.Drawing.Size(893, 493);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Baemin";
-            this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // baemin_logOut
             // 
@@ -1003,12 +1011,11 @@
             this.tabPage12.Controls.Add(this.label31);
             this.tabPage12.Controls.Add(this.baemin_web_login1);
             this.tabPage12.Controls.Add(this.label30);
-            this.tabPage12.Location = new System.Drawing.Point(4, 22);
+            this.tabPage12.Location = new System.Drawing.Point(3, 25);
             this.tabPage12.Name = "tabPage12";
-            this.tabPage12.Size = new System.Drawing.Size(891, 495);
+            this.tabPage12.Size = new System.Drawing.Size(893, 493);
             this.tabPage12.TabIndex = 11;
             this.tabPage12.Text = "Baemin_Web";
-            this.tabPage12.UseVisualStyleBackColor = true;
             // 
             // baemin_web_postReviews
             // 
@@ -1200,13 +1207,12 @@
             this.tabPage2.Controls.Add(this.label46);
             this.tabPage2.Controls.Add(this.yogiyo_getAppConfigApi);
             this.tabPage2.Controls.Add(this.label47);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Location = new System.Drawing.Point(-891, -495);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(891, 495);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Yogiyo";
-            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // yogiyo_logIn3
             // 
@@ -1718,12 +1724,11 @@
             this.tabPage13.Controls.Add(this.label70);
             this.tabPage13.Controls.Add(this.yogiyo_web_logout);
             this.tabPage13.Controls.Add(this.label71);
-            this.tabPage13.Location = new System.Drawing.Point(4, 22);
+            this.tabPage13.Location = new System.Drawing.Point(-891, -495);
             this.tabPage13.Name = "tabPage13";
             this.tabPage13.Size = new System.Drawing.Size(891, 495);
             this.tabPage13.TabIndex = 12;
             this.tabPage13.Text = "Yogiyo_Web";
-            this.tabPage13.UseVisualStyleBackColor = true;
             // 
             // yogiyo_web_getMenus
             // 
@@ -2049,12 +2054,11 @@
             this.tabPage3.Controls.Add(this.label84);
             this.tabPage3.Controls.Add(this.coupangeats_getRestaurants);
             this.tabPage3.Controls.Add(this.label85);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Location = new System.Drawing.Point(-891, -495);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Size = new System.Drawing.Size(891, 495);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Coupangeats";
-            this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // coupangeats_callLoginApi
             // 
@@ -2504,12 +2508,11 @@
             this.tabPage14.Controls.Add(this.label105);
             this.tabPage14.Controls.Add(this.coupangeats_web_logIn);
             this.tabPage14.Controls.Add(this.label106);
-            this.tabPage14.Location = new System.Drawing.Point(4, 22);
+            this.tabPage14.Location = new System.Drawing.Point(-891, -495);
             this.tabPage14.Name = "tabPage14";
             this.tabPage14.Size = new System.Drawing.Size(891, 495);
             this.tabPage14.TabIndex = 13;
             this.tabPage14.Text = "CoupangEats_Web";
-            this.tabPage14.UseVisualStyleBackColor = true;
             // 
             // coupangeats_web_addReviewReplyApi
             // 
@@ -2803,12 +2806,11 @@
             this.tabPage4.Controls.Add(this.label117);
             this.tabPage4.Controls.Add(this.naverchannel_logIn);
             this.tabPage4.Controls.Add(this.label118);
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Location = new System.Drawing.Point(-891, -495);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Size = new System.Drawing.Size(891, 495);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "NaverChannel";
-            this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // naverchannel_patchSettingApi
             // 
@@ -3114,7 +3116,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 15);
+            this.label2.Location = new System.Drawing.Point(12, 54);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(116, 25);
             this.label2.TabIndex = 2;
@@ -3124,7 +3126,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(510, 15);
+            this.label3.Location = new System.Drawing.Point(510, 54);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(207, 25);
             this.label3.TabIndex = 3;
@@ -3133,7 +3135,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(821, 12);
+            this.button2.Location = new System.Drawing.Point(821, 51);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(86, 31);
             this.button2.TabIndex = 4;
@@ -3145,7 +3147,7 @@
             // 
             this.nTotal_API.AutoSize = true;
             this.nTotal_API.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nTotal_API.Location = new System.Drawing.Point(123, 15);
+            this.nTotal_API.Location = new System.Drawing.Point(123, 54);
             this.nTotal_API.Name = "nTotal_API";
             this.nTotal_API.Size = new System.Drawing.Size(30, 25);
             this.nTotal_API.TabIndex = 5;
@@ -3155,7 +3157,7 @@
             // 
             this.nError_API.AutoSize = true;
             this.nError_API.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nError_API.Location = new System.Drawing.Point(712, 15);
+            this.nError_API.Location = new System.Drawing.Point(712, 54);
             this.nError_API.Name = "nError_API";
             this.nError_API.Size = new System.Drawing.Size(30, 25);
             this.nError_API.TabIndex = 6;
@@ -3165,7 +3167,7 @@
             // 
             this.nChecked_API.AutoSize = true;
             this.nChecked_API.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nChecked_API.Location = new System.Drawing.Point(389, 15);
+            this.nChecked_API.Location = new System.Drawing.Point(389, 54);
             this.nChecked_API.Name = "nChecked_API";
             this.nChecked_API.Size = new System.Drawing.Size(30, 25);
             this.nChecked_API.TabIndex = 8;
@@ -3175,7 +3177,7 @@
             // 
             this.label110.AutoSize = true;
             this.label110.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label110.Location = new System.Drawing.Point(241, 15);
+            this.label110.Location = new System.Drawing.Point(241, 54);
             this.label110.Name = "label110";
             this.label110.Size = new System.Drawing.Size(153, 25);
             this.label110.TabIndex = 7;
@@ -3187,11 +3189,45 @@
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // btn_mode
+            // 
+            this.btn_mode.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btn_mode.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_mode.Ghost = true;
+            this.btn_mode.IconSvg = "SunOutlined";
+            this.btn_mode.Location = new System.Drawing.Point(729, 0);
+            this.btn_mode.Name = "btn_mode";
+            this.btn_mode.Radius = 0;
+            this.btn_mode.Size = new System.Drawing.Size(50, 40);
+            this.btn_mode.TabIndex = 0;
+            this.btn_mode.ToggleIconSvg = "MoonOutlined";
+            this.btn_mode.WaveSize = 0;
+            this.btn_mode.Click += new System.EventHandler(this.btn_mode_Click);
+            // 
+            // pageHeader1
+            // 
+            this.pageHeader1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pageHeader1.Controls.Add(this.btn_mode);
+            this.pageHeader1.DividerMargin = 3;
+            this.pageHeader1.DividerShow = true;
+            this.pageHeader1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pageHeader1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pageHeader1.ForeColor = System.Drawing.Color.Black;
+            this.pageHeader1.Location = new System.Drawing.Point(0, 0);
+            this.pageHeader1.Name = "pageHeader1";
+            this.pageHeader1.ShowButton = true;
+            this.pageHeader1.ShowIcon = true;
+            this.pageHeader1.Size = new System.Drawing.Size(923, 40);
+            this.pageHeader1.TabIndex = 9;
+            this.pageHeader1.Text = "API Monitor";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(923, 586);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(923, 625);
+            this.Controls.Add(this.pageHeader1);
             this.Controls.Add(this.nChecked_API);
             this.Controls.Add(this.label110);
             this.Controls.Add(this.nError_API);
@@ -3339,6 +3375,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.naverchannel_getSessionInfoApi)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.naverchannel_logOut)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.naverchannel_logIn)).EndInit();
+            this.pageHeader1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3346,11 +3383,11 @@
 
         #endregion
 
-        private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.TabPage tabPage4;
+        private AntdUI.Tabs tabControl1;
+        private AntdUI.TabPage tabPage1;
+        private AntdUI.TabPage tabPage2;
+        private AntdUI.TabPage tabPage3;
+        private AntdUI.TabPage tabPage4;
         private System.Windows.Forms.PictureBox baemin_getRiderDistance;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
@@ -3406,7 +3443,7 @@
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.PictureBox baemin_afterLogIn1;
         private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.TabPage tabPage12;
+        private AntdUI.TabPage tabPage12;
         private System.Windows.Forms.PictureBox baemin_web_getReviews;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.PictureBox baemin_web_getOrders2;
@@ -3469,7 +3506,7 @@
         private System.Windows.Forms.Label label60;
         private System.Windows.Forms.PictureBox yogiyo_logIn2;
         private System.Windows.Forms.Label label59;
-        private System.Windows.Forms.TabPage tabPage13;
+        private AntdUI.TabPage tabPage13;
         private System.Windows.Forms.PictureBox yogiyo_web_loadOrders2;
         private System.Windows.Forms.Label label61;
         private System.Windows.Forms.PictureBox yogiyo_web_loadOrders1;
@@ -3540,7 +3577,7 @@
         private System.Windows.Forms.Label label95;
         private System.Windows.Forms.PictureBox coupangeats_getOrderDetail;
         private System.Windows.Forms.Label label96;
-        private System.Windows.Forms.TabPage tabPage14;
+        private AntdUI.TabPage tabPage14;
         private System.Windows.Forms.PictureBox coupangeats_web_searchReviewsApi;
         private System.Windows.Forms.Label label86;
         private System.Windows.Forms.PictureBox coupangeats_web_getOrderStatsApi;
@@ -3600,6 +3637,8 @@
         private System.Windows.Forms.PictureBox naverchannel_getAllOrders;
         private System.Windows.Forms.Label label122;
         private System.Windows.Forms.Timer timer1;
+        private AntdUI.Button btn_mode;
+        private AntdUI.PageHeader pageHeader1;
     }
 }
 

@@ -1,13 +1,13 @@
 ﻿using API_Monitor.Properties;
 using Newtonsoft.Json;
 using System;
-using System.Linq;
+using System.Drawing;
 using System.Windows.Forms;
 using WebSocketSharp;
 
 namespace API_Monitor
 {
-    public partial class Form1 : Form
+    public partial class Form1 : AntdUI.Window
     {
         WebSocket ws;
         public int nTotal, nChecked, nError;
@@ -106,6 +106,26 @@ namespace API_Monitor
             getAPI_Status();
         }
 
+        private void btn_mode_Click(object sender, EventArgs e)
+        {
+            var color = AntdUI.Style.Db.Primary;
+            AntdUI.Config.IsDark = !AntdUI.Config.IsDark;
+            Dark = AntdUI.Config.IsDark;
+            AntdUI.Style.SetPrimary(color);
+            btn_mode.Toggle = Dark;
+            if (Dark)
+            {
+                BackColor = Color.Black;
+                ForeColor = Color.White;
+            }
+            else
+            {
+                BackColor = Color.White;
+                ForeColor = Color.Black;
+            }
+            OnSizeChanged(e);
+        }
+
         private void button2_Click(object sender, EventArgs e)
         {
             ws.Close();
@@ -114,7 +134,7 @@ namespace API_Monitor
 
         public void getAPI_Status()
         {
-            foreach (TabPage tabPage in tabControl1.TabPages)
+            foreach (AntdUI.TabPage tabPage in tabControl1.Pages)
             {
                 foreach (Control control in tabPage.Controls)
                 {
@@ -131,6 +151,5 @@ namespace API_Monitor
             nError_API.Text = nError.ToString();
             nTotal = nChecked = nError = 0;
         }
-
     }
 }
