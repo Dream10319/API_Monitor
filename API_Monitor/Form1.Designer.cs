@@ -31,7 +31,7 @@
             this.components = new System.ComponentModel.Container();
             AntdUI.Tabs.StyleLine styleLine4 = new AntdUI.Tabs.StyleLine();
             this.tabControl1 = new AntdUI.Tabs();
-            this.tabPage1 = new AntdUI.TabPage();
+            this.tabBaemin = new AntdUI.TabPage();
             this.baemin_logOut = new System.Windows.Forms.PictureBox();
             this.label29 = new System.Windows.Forms.Label();
             this.baemin_refreshToken2 = new System.Windows.Forms.PictureBox();
@@ -82,7 +82,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.baemin_getRiderDistance = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.tabPage12 = new AntdUI.TabPage();
+            this.tabBaemin_web = new AntdUI.TabPage();
             this.baemin_web_postReviews = new System.Windows.Forms.PictureBox();
             this.label36 = new System.Windows.Forms.Label();
             this.baemin_web_getReviews = new System.Windows.Forms.PictureBox();
@@ -97,7 +97,7 @@
             this.label31 = new System.Windows.Forms.Label();
             this.baemin_web_login1 = new System.Windows.Forms.PictureBox();
             this.label30 = new System.Windows.Forms.Label();
-            this.tabPage2 = new AntdUI.TabPage();
+            this.tabYogiyo = new AntdUI.TabPage();
             this.yogiyo_logIn3 = new System.Windows.Forms.PictureBox();
             this.label60 = new System.Windows.Forms.Label();
             this.yogiyo_logIn2 = new System.Windows.Forms.PictureBox();
@@ -146,7 +146,7 @@
             this.label46 = new System.Windows.Forms.Label();
             this.yogiyo_getAppConfigApi = new System.Windows.Forms.PictureBox();
             this.label47 = new System.Windows.Forms.Label();
-            this.tabPage13 = new AntdUI.TabPage();
+            this.tabYogiyo_web = new AntdUI.TabPage();
             this.yogiyo_web_getMenus = new System.Windows.Forms.PictureBox();
             this.label74 = new System.Windows.Forms.Label();
             this.yogiyo_web_postReviewReply = new System.Windows.Forms.PictureBox();
@@ -175,7 +175,7 @@
             this.label70 = new System.Windows.Forms.Label();
             this.yogiyo_web_logout = new System.Windows.Forms.PictureBox();
             this.label71 = new System.Windows.Forms.Label();
-            this.tabPage3 = new AntdUI.TabPage();
+            this.tabCoupang = new AntdUI.TabPage();
             this.coupangeats_callLoginApi = new System.Windows.Forms.PictureBox();
             this.label87 = new System.Windows.Forms.Label();
             this.coupangeats_logOut = new System.Windows.Forms.PictureBox();
@@ -218,7 +218,7 @@
             this.label84 = new System.Windows.Forms.Label();
             this.coupangeats_getRestaurants = new System.Windows.Forms.PictureBox();
             this.label85 = new System.Windows.Forms.Label();
-            this.tabPage14 = new AntdUI.TabPage();
+            this.tabCoupang_web = new AntdUI.TabPage();
             this.coupangeats_web_addReviewReplyApi = new System.Windows.Forms.PictureBox();
             this.label107 = new System.Windows.Forms.Label();
             this.coupangeats_web_getReviewSummaryApi = new System.Windows.Forms.PictureBox();
@@ -245,7 +245,7 @@
             this.label105 = new System.Windows.Forms.Label();
             this.coupangeats_web_logIn = new System.Windows.Forms.PictureBox();
             this.label106 = new System.Windows.Forms.Label();
-            this.tabPage4 = new AntdUI.TabPage();
+            this.tabNaver = new AntdUI.TabPage();
             this.naverchannel_patchSettingApi = new System.Windows.Forms.PictureBox();
             this.label119 = new System.Windows.Forms.Label();
             this.naverchannel_getOrderStatsApi = new System.Windows.Forms.PictureBox();
@@ -288,7 +288,7 @@
             this.btn_refresh = new AntdUI.Button();
             this.tooltipComponent1 = new AntdUI.TooltipComponent();
             this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
+            this.tabBaemin.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.baemin_logOut)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.baemin_refreshToken2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.baemin_afterLogIn2)).BeginInit();
@@ -314,7 +314,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.baemin_refreshToken)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.baemin_preLogIn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.baemin_getRiderDistance)).BeginInit();
-            this.tabPage12.SuspendLayout();
+            this.tabBaemin_web.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.baemin_web_postReviews)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.baemin_web_getReviews)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.baemin_web_getOrders2)).BeginInit();
@@ -322,7 +322,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.baemin_web_login3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.baemin_web_login2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.baemin_web_login1)).BeginInit();
-            this.tabPage2.SuspendLayout();
+            this.tabYogiyo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.yogiyo_logIn3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.yogiyo_logIn2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.yogiyo_logIn1)).BeginInit();
@@ -347,7 +347,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.yogiyo_load_restaurants_Status)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.yogiyo_getAppBuildsApi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.yogiyo_getAppConfigApi)).BeginInit();
-            this.tabPage13.SuspendLayout();
+            this.tabYogiyo_web.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.yogiyo_web_getMenus)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.yogiyo_web_postReviewReply)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.yogiyo_web_loadReviews)).BeginInit();
@@ -362,7 +362,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.yogiyo_web_login2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.yogiyo_web_login1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.yogiyo_web_logout)).BeginInit();
-            this.tabPage3.SuspendLayout();
+            this.tabCoupang.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.coupangeats_callLoginApi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.coupangeats_logOut)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.coupangeats_logIn)).BeginInit();
@@ -384,7 +384,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.coupangeats_setRestaurantStatus)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.coupangeats_getRestaurantStatus)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.coupangeats_getRestaurants)).BeginInit();
-            this.tabPage14.SuspendLayout();
+            this.tabCoupang_web.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.coupangeats_web_addReviewReplyApi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.coupangeats_web_getReviewSummaryApi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.coupangeats_web_searchReviewsApi)).BeginInit();
@@ -398,7 +398,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.coupangeats_web_getHomepageApi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.coupangeats_web_logOut)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.coupangeats_web_logIn)).BeginInit();
-            this.tabPage4.SuspendLayout();
+            this.tabNaver.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.naverchannel_patchSettingApi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.naverchannel_getOrderStatsApi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.naverchannel_getOrderList)).BeginInit();
@@ -419,84 +419,90 @@
             // 
             // tabControl1
             // 
+            this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tabControl1.BadgeSize = 1F;
             this.tabControl1.Centered = true;
-            this.tabControl1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.tabControl1.ItemSize = 110;
+            this.tabControl1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.tabControl1.Gap = 10;
+            this.tabControl1.ItemSize = 117;
             this.tabControl1.Location = new System.Drawing.Point(12, 92);
             this.tabControl1.Name = "tabControl1";
-            this.tabControl1.Pages.Add(this.tabPage1);
-            this.tabControl1.Pages.Add(this.tabPage12);
-            this.tabControl1.Pages.Add(this.tabPage2);
-            this.tabControl1.Pages.Add(this.tabPage13);
-            this.tabControl1.Pages.Add(this.tabPage3);
-            this.tabControl1.Pages.Add(this.tabPage14);
-            this.tabControl1.Pages.Add(this.tabPage4);
+            this.tabControl1.Pages.Add(this.tabBaemin);
+            this.tabControl1.Pages.Add(this.tabBaemin_web);
+            this.tabControl1.Pages.Add(this.tabYogiyo);
+            this.tabControl1.Pages.Add(this.tabYogiyo_web);
+            this.tabControl1.Pages.Add(this.tabCoupang);
+            this.tabControl1.Pages.Add(this.tabCoupang_web);
+            this.tabControl1.Pages.Add(this.tabNaver);
             this.tabControl1.Size = new System.Drawing.Size(899, 521);
-            styleLine4.Radius = 5;
             this.tabControl1.Style = styleLine4;
             this.tabControl1.TabIndex = 0;
             // 
-            // tabPage1
+            // tabBaemin
             // 
-            this.tabPage1.Controls.Add(this.baemin_logOut);
-            this.tabPage1.Controls.Add(this.label29);
-            this.tabPage1.Controls.Add(this.baemin_refreshToken2);
-            this.tabPage1.Controls.Add(this.label28);
-            this.tabPage1.Controls.Add(this.baemin_afterLogIn2);
-            this.tabPage1.Controls.Add(this.label27);
-            this.tabPage1.Controls.Add(this.baemin_afterLogIn1);
-            this.tabPage1.Controls.Add(this.label26);
-            this.tabPage1.Controls.Add(this.baemin_setShopStatusU);
-            this.tabPage1.Controls.Add(this.label25);
-            this.tabPage1.Controls.Add(this.baemin_setShopStatusB);
-            this.tabPage1.Controls.Add(this.label24);
-            this.tabPage1.Controls.Add(this.baemin_getShopStatus);
-            this.tabPage1.Controls.Add(this.label23);
-            this.tabPage1.Controls.Add(this.baemin_orderCancel);
-            this.tabPage1.Controls.Add(this.label22);
-            this.tabPage1.Controls.Add(this.baemin_orderComplete);
-            this.tabPage1.Controls.Add(this.label21);
-            this.tabPage1.Controls.Add(this.baemin_orderReceipt);
-            this.tabPage1.Controls.Add(this.label20);
-            this.tabPage1.Controls.Add(this.baemin_getDetailOrders);
-            this.tabPage1.Controls.Add(this.label19);
-            this.tabPage1.Controls.Add(this.baemin_getCompletedOrders);
-            this.tabPage1.Controls.Add(this.label18);
-            this.tabPage1.Controls.Add(this.baemin_pickupOrderReadyComplete);
-            this.tabPage1.Controls.Add(this.label17);
-            this.tabPage1.Controls.Add(this.baemin_getNewOrders);
-            this.tabPage1.Controls.Add(this.label16);
-            this.tabPage1.Controls.Add(this.baemin_getOrderCancelCodes);
-            this.tabPage1.Controls.Add(this.label15);
-            this.tabPage1.Controls.Add(this.baemin_getTimes);
-            this.tabPage1.Controls.Add(this.label14);
-            this.tabPage1.Controls.Add(this.baemin_deleteDevice);
-            this.tabPage1.Controls.Add(this.label13);
-            this.tabPage1.Controls.Add(this.baemin_getDevices);
-            this.tabPage1.Controls.Add(this.label12);
-            this.tabPage1.Controls.Add(this.baemin_checkCert);
-            this.tabPage1.Controls.Add(this.label11);
-            this.tabPage1.Controls.Add(this.baemin_requestCertMessage);
-            this.tabPage1.Controls.Add(this.label10);
-            this.tabPage1.Controls.Add(this.baemin_getVersion);
-            this.tabPage1.Controls.Add(this.label9);
-            this.tabPage1.Controls.Add(this.baemin_refreshToken1);
-            this.tabPage1.Controls.Add(this.label8);
-            this.tabPage1.Controls.Add(this.baemin_refreshToken);
-            this.tabPage1.Controls.Add(this.label7);
-            this.tabPage1.Controls.Add(this.baemin_preLogIn);
-            this.tabPage1.Controls.Add(this.label6);
-            this.tabPage1.Controls.Add(this.baemin_getRiderDistance);
-            this.tabPage1.Controls.Add(this.label1);
-            this.tabPage1.Location = new System.Drawing.Point(3, 25);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(893, 493);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Baemin";
+            this.tabBaemin.BadgeSize = 1F;
+            this.tabBaemin.Controls.Add(this.baemin_logOut);
+            this.tabBaemin.Controls.Add(this.label29);
+            this.tabBaemin.Controls.Add(this.baemin_refreshToken2);
+            this.tabBaemin.Controls.Add(this.label28);
+            this.tabBaemin.Controls.Add(this.baemin_afterLogIn2);
+            this.tabBaemin.Controls.Add(this.label27);
+            this.tabBaemin.Controls.Add(this.baemin_afterLogIn1);
+            this.tabBaemin.Controls.Add(this.label26);
+            this.tabBaemin.Controls.Add(this.baemin_setShopStatusU);
+            this.tabBaemin.Controls.Add(this.label25);
+            this.tabBaemin.Controls.Add(this.baemin_setShopStatusB);
+            this.tabBaemin.Controls.Add(this.label24);
+            this.tabBaemin.Controls.Add(this.baemin_getShopStatus);
+            this.tabBaemin.Controls.Add(this.label23);
+            this.tabBaemin.Controls.Add(this.baemin_orderCancel);
+            this.tabBaemin.Controls.Add(this.label22);
+            this.tabBaemin.Controls.Add(this.baemin_orderComplete);
+            this.tabBaemin.Controls.Add(this.label21);
+            this.tabBaemin.Controls.Add(this.baemin_orderReceipt);
+            this.tabBaemin.Controls.Add(this.label20);
+            this.tabBaemin.Controls.Add(this.baemin_getDetailOrders);
+            this.tabBaemin.Controls.Add(this.label19);
+            this.tabBaemin.Controls.Add(this.baemin_getCompletedOrders);
+            this.tabBaemin.Controls.Add(this.label18);
+            this.tabBaemin.Controls.Add(this.baemin_pickupOrderReadyComplete);
+            this.tabBaemin.Controls.Add(this.label17);
+            this.tabBaemin.Controls.Add(this.baemin_getNewOrders);
+            this.tabBaemin.Controls.Add(this.label16);
+            this.tabBaemin.Controls.Add(this.baemin_getOrderCancelCodes);
+            this.tabBaemin.Controls.Add(this.label15);
+            this.tabBaemin.Controls.Add(this.baemin_getTimes);
+            this.tabBaemin.Controls.Add(this.label14);
+            this.tabBaemin.Controls.Add(this.baemin_deleteDevice);
+            this.tabBaemin.Controls.Add(this.label13);
+            this.tabBaemin.Controls.Add(this.baemin_getDevices);
+            this.tabBaemin.Controls.Add(this.label12);
+            this.tabBaemin.Controls.Add(this.baemin_checkCert);
+            this.tabBaemin.Controls.Add(this.label11);
+            this.tabBaemin.Controls.Add(this.baemin_requestCertMessage);
+            this.tabBaemin.Controls.Add(this.label10);
+            this.tabBaemin.Controls.Add(this.baemin_getVersion);
+            this.tabBaemin.Controls.Add(this.label9);
+            this.tabBaemin.Controls.Add(this.baemin_refreshToken1);
+            this.tabBaemin.Controls.Add(this.label8);
+            this.tabBaemin.Controls.Add(this.baemin_refreshToken);
+            this.tabBaemin.Controls.Add(this.label7);
+            this.tabBaemin.Controls.Add(this.baemin_preLogIn);
+            this.tabBaemin.Controls.Add(this.label6);
+            this.tabBaemin.Controls.Add(this.baemin_getRiderDistance);
+            this.tabBaemin.Controls.Add(this.label1);
+            this.tabBaemin.Location = new System.Drawing.Point(3, 27);
+            this.tabBaemin.Name = "tabBaemin";
+            this.tabBaemin.Padding = new System.Windows.Forms.Padding(3);
+            this.tabBaemin.Size = new System.Drawing.Size(893, 491);
+            this.tabBaemin.TabIndex = 0;
+            this.tabBaemin.Text = "Baemin";
             // 
             // baemin_logOut
             // 
+            this.baemin_logOut.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.baemin_logOut.Image = global::API_Monitor.Properties.Resources.gray;
             this.baemin_logOut.Location = new System.Drawing.Point(835, 106);
             this.baemin_logOut.Name = "baemin_logOut";
@@ -507,6 +513,7 @@
             // 
             // label29
             // 
+            this.label29.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label29.Location = new System.Drawing.Point(757, 110);
@@ -517,6 +524,7 @@
             // 
             // baemin_refreshToken2
             // 
+            this.baemin_refreshToken2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.baemin_refreshToken2.Image = global::API_Monitor.Properties.Resources.gray;
             this.baemin_refreshToken2.Location = new System.Drawing.Point(835, 64);
             this.baemin_refreshToken2.Name = "baemin_refreshToken2";
@@ -527,6 +535,7 @@
             // 
             // label28
             // 
+            this.label28.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.Location = new System.Drawing.Point(690, 68);
@@ -537,6 +546,7 @@
             // 
             // baemin_afterLogIn2
             // 
+            this.baemin_afterLogIn2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.baemin_afterLogIn2.Image = global::API_Monitor.Properties.Resources.gray;
             this.baemin_afterLogIn2.Location = new System.Drawing.Point(835, 20);
             this.baemin_afterLogIn2.Name = "baemin_afterLogIn2";
@@ -547,6 +557,7 @@
             // 
             // label27
             // 
+            this.label27.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.Location = new System.Drawing.Point(724, 24);
@@ -557,6 +568,7 @@
             // 
             // baemin_afterLogIn1
             // 
+            this.baemin_afterLogIn1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.baemin_afterLogIn1.Image = global::API_Monitor.Properties.Resources.gray;
             this.baemin_afterLogIn1.Location = new System.Drawing.Point(561, 444);
             this.baemin_afterLogIn1.Name = "baemin_afterLogIn1";
@@ -567,6 +579,7 @@
             // 
             // label26
             // 
+            this.label26.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.Location = new System.Drawing.Point(452, 448);
@@ -577,6 +590,7 @@
             // 
             // baemin_setShopStatusU
             // 
+            this.baemin_setShopStatusU.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.baemin_setShopStatusU.Image = global::API_Monitor.Properties.Resources.gray;
             this.baemin_setShopStatusU.Location = new System.Drawing.Point(561, 401);
             this.baemin_setShopStatusU.Name = "baemin_setShopStatusU";
@@ -587,6 +601,7 @@
             // 
             // label25
             // 
+            this.label25.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.Location = new System.Drawing.Point(344, 406);
@@ -597,6 +612,7 @@
             // 
             // baemin_setShopStatusB
             // 
+            this.baemin_setShopStatusB.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.baemin_setShopStatusB.Image = global::API_Monitor.Properties.Resources.gray;
             this.baemin_setShopStatusB.Location = new System.Drawing.Point(561, 360);
             this.baemin_setShopStatusB.Name = "baemin_setShopStatusB";
@@ -607,6 +623,7 @@
             // 
             // label24
             // 
+            this.label24.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.Location = new System.Drawing.Point(367, 365);
@@ -617,6 +634,7 @@
             // 
             // baemin_getShopStatus
             // 
+            this.baemin_getShopStatus.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.baemin_getShopStatus.Image = global::API_Monitor.Properties.Resources.gray;
             this.baemin_getShopStatus.Location = new System.Drawing.Point(561, 318);
             this.baemin_getShopStatus.Name = "baemin_getShopStatus";
@@ -627,6 +645,7 @@
             // 
             // label23
             // 
+            this.label23.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.Location = new System.Drawing.Point(423, 323);
@@ -637,6 +656,7 @@
             // 
             // baemin_orderCancel
             // 
+            this.baemin_orderCancel.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.baemin_orderCancel.Image = global::API_Monitor.Properties.Resources.gray;
             this.baemin_orderCancel.Location = new System.Drawing.Point(561, 276);
             this.baemin_orderCancel.Name = "baemin_orderCancel";
@@ -647,6 +667,7 @@
             // 
             // label22
             // 
+            this.label22.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.Location = new System.Drawing.Point(439, 280);
@@ -657,6 +678,7 @@
             // 
             // baemin_orderComplete
             // 
+            this.baemin_orderComplete.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.baemin_orderComplete.Image = global::API_Monitor.Properties.Resources.gray;
             this.baemin_orderComplete.Location = new System.Drawing.Point(561, 233);
             this.baemin_orderComplete.Name = "baemin_orderComplete";
@@ -667,6 +689,7 @@
             // 
             // label21
             // 
+            this.label21.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.Location = new System.Drawing.Point(417, 237);
@@ -677,6 +700,7 @@
             // 
             // baemin_orderReceipt
             // 
+            this.baemin_orderReceipt.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.baemin_orderReceipt.Image = global::API_Monitor.Properties.Resources.gray;
             this.baemin_orderReceipt.Location = new System.Drawing.Point(561, 191);
             this.baemin_orderReceipt.Name = "baemin_orderReceipt";
@@ -687,6 +711,7 @@
             // 
             // label20
             // 
+            this.label20.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.Location = new System.Drawing.Point(434, 195);
@@ -697,6 +722,7 @@
             // 
             // baemin_getDetailOrders
             // 
+            this.baemin_getDetailOrders.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.baemin_getDetailOrders.Image = global::API_Monitor.Properties.Resources.gray;
             this.baemin_getDetailOrders.Location = new System.Drawing.Point(561, 148);
             this.baemin_getDetailOrders.Name = "baemin_getDetailOrders";
@@ -707,6 +733,7 @@
             // 
             // label19
             // 
+            this.label19.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.Location = new System.Drawing.Point(414, 152);
@@ -717,6 +744,7 @@
             // 
             // baemin_getCompletedOrders
             // 
+            this.baemin_getCompletedOrders.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.baemin_getCompletedOrders.Image = global::API_Monitor.Properties.Resources.gray;
             this.baemin_getCompletedOrders.Location = new System.Drawing.Point(561, 105);
             this.baemin_getCompletedOrders.Name = "baemin_getCompletedOrders";
@@ -727,6 +755,7 @@
             // 
             // label18
             // 
+            this.label18.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.Location = new System.Drawing.Point(368, 109);
@@ -737,6 +766,7 @@
             // 
             // baemin_pickupOrderReadyComplete
             // 
+            this.baemin_pickupOrderReadyComplete.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.baemin_pickupOrderReadyComplete.Image = global::API_Monitor.Properties.Resources.gray;
             this.baemin_pickupOrderReadyComplete.Location = new System.Drawing.Point(561, 63);
             this.baemin_pickupOrderReadyComplete.Name = "baemin_pickupOrderReadyComplete";
@@ -747,6 +777,7 @@
             // 
             // label17
             // 
+            this.label17.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.Location = new System.Drawing.Point(306, 67);
@@ -757,6 +788,7 @@
             // 
             // baemin_getNewOrders
             // 
+            this.baemin_getNewOrders.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.baemin_getNewOrders.Image = global::API_Monitor.Properties.Resources.gray;
             this.baemin_getNewOrders.Location = new System.Drawing.Point(561, 19);
             this.baemin_getNewOrders.Name = "baemin_getNewOrders";
@@ -767,6 +799,7 @@
             // 
             // label16
             // 
+            this.label16.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.Location = new System.Drawing.Point(421, 23);
@@ -995,27 +1028,28 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "GetRiderDistance";
             // 
-            // tabPage12
+            // tabBaemin_web
             // 
-            this.tabPage12.Controls.Add(this.baemin_web_postReviews);
-            this.tabPage12.Controls.Add(this.label36);
-            this.tabPage12.Controls.Add(this.baemin_web_getReviews);
-            this.tabPage12.Controls.Add(this.label35);
-            this.tabPage12.Controls.Add(this.baemin_web_getOrders2);
-            this.tabPage12.Controls.Add(this.label34);
-            this.tabPage12.Controls.Add(this.baemin_web_getOrders1);
-            this.tabPage12.Controls.Add(this.label33);
-            this.tabPage12.Controls.Add(this.baemin_web_login3);
-            this.tabPage12.Controls.Add(this.label32);
-            this.tabPage12.Controls.Add(this.baemin_web_login2);
-            this.tabPage12.Controls.Add(this.label31);
-            this.tabPage12.Controls.Add(this.baemin_web_login1);
-            this.tabPage12.Controls.Add(this.label30);
-            this.tabPage12.Location = new System.Drawing.Point(-893, -493);
-            this.tabPage12.Name = "tabPage12";
-            this.tabPage12.Size = new System.Drawing.Size(893, 493);
-            this.tabPage12.TabIndex = 11;
-            this.tabPage12.Text = "Baemin_Web";
+            this.tabBaemin_web.BadgeSize = 1F;
+            this.tabBaemin_web.Controls.Add(this.baemin_web_postReviews);
+            this.tabBaemin_web.Controls.Add(this.label36);
+            this.tabBaemin_web.Controls.Add(this.baemin_web_getReviews);
+            this.tabBaemin_web.Controls.Add(this.label35);
+            this.tabBaemin_web.Controls.Add(this.baemin_web_getOrders2);
+            this.tabBaemin_web.Controls.Add(this.label34);
+            this.tabBaemin_web.Controls.Add(this.baemin_web_getOrders1);
+            this.tabBaemin_web.Controls.Add(this.label33);
+            this.tabBaemin_web.Controls.Add(this.baemin_web_login3);
+            this.tabBaemin_web.Controls.Add(this.label32);
+            this.tabBaemin_web.Controls.Add(this.baemin_web_login2);
+            this.tabBaemin_web.Controls.Add(this.label31);
+            this.tabBaemin_web.Controls.Add(this.baemin_web_login1);
+            this.tabBaemin_web.Controls.Add(this.label30);
+            this.tabBaemin_web.Location = new System.Drawing.Point(-893, -493);
+            this.tabBaemin_web.Name = "tabBaemin_web";
+            this.tabBaemin_web.Size = new System.Drawing.Size(893, 493);
+            this.tabBaemin_web.TabIndex = 11;
+            this.tabBaemin_web.Text = "Baemin_Web";
             // 
             // baemin_web_postReviews
             // 
@@ -1157,67 +1191,69 @@
             this.label30.TabIndex = 2;
             this.label30.Text = "Login1";
             // 
-            // tabPage2
+            // tabYogiyo
             // 
-            this.tabPage2.Controls.Add(this.yogiyo_logIn3);
-            this.tabPage2.Controls.Add(this.label60);
-            this.tabPage2.Controls.Add(this.yogiyo_logIn2);
-            this.tabPage2.Controls.Add(this.label59);
-            this.tabPage2.Controls.Add(this.yogiyo_logIn1);
-            this.tabPage2.Controls.Add(this.label48);
-            this.tabPage2.Controls.Add(this.yogiyo_heatbeat);
-            this.tabPage2.Controls.Add(this.label49);
-            this.tabPage2.Controls.Add(this.yogiyo_loadConfig);
-            this.tabPage2.Controls.Add(this.label50);
-            this.tabPage2.Controls.Add(this.yogiyo_sendCookFinish);
-            this.tabPage2.Controls.Add(this.label51);
-            this.tabPage2.Controls.Add(this.yogiyo_getDeliveryTime);
-            this.tabPage2.Controls.Add(this.label52);
-            this.tabPage2.Controls.Add(this.yogiyo_postOrderReady);
-            this.tabPage2.Controls.Add(this.label53);
-            this.tabPage2.Controls.Add(this.yogiyo_postOrderComplete);
-            this.tabPage2.Controls.Add(this.label54);
-            this.tabPage2.Controls.Add(this.yogiyo_postOrderReceipt);
-            this.tabPage2.Controls.Add(this.label55);
-            this.tabPage2.Controls.Add(this.yogiyo_postOrderRefuse);
-            this.tabPage2.Controls.Add(this.label56);
-            this.tabPage2.Controls.Add(this.yogiyo_getOrderDeliveryStatus);
-            this.tabPage2.Controls.Add(this.label57);
-            this.tabPage2.Controls.Add(this.yogiyo_getOrdersNewOther);
-            this.tabPage2.Controls.Add(this.label58);
-            this.tabPage2.Controls.Add(this.yogiyo_getOrders);
-            this.tabPage2.Controls.Add(this.label37);
-            this.tabPage2.Controls.Add(this.yogiyo_getOrdersFromDate);
-            this.tabPage2.Controls.Add(this.label38);
-            this.tabPage2.Controls.Add(this.yogiyo_getNewOrders);
-            this.tabPage2.Controls.Add(this.label39);
-            this.tabPage2.Controls.Add(this.yogiyo_getOrderRejectReason);
-            this.tabPage2.Controls.Add(this.label40);
-            this.tabPage2.Controls.Add(this.yogiyo_setRestaurantStatus_P);
-            this.tabPage2.Controls.Add(this.label41);
-            this.tabPage2.Controls.Add(this.yogiyo_setRestaurantStatus_O);
-            this.tabPage2.Controls.Add(this.label42);
-            this.tabPage2.Controls.Add(this.yogiyo_getRestaurantStatus);
-            this.tabPage2.Controls.Add(this.label43);
-            this.tabPage2.Controls.Add(this.yogiyo_getRestaurants);
-            this.tabPage2.Controls.Add(this.label44);
-            this.tabPage2.Controls.Add(this.yogiyo_load_restaurants_Status);
-            this.tabPage2.Controls.Add(this.label45);
-            this.tabPage2.Controls.Add(this.yogiyo_getAppBuildsApi);
-            this.tabPage2.Controls.Add(this.label46);
-            this.tabPage2.Controls.Add(this.yogiyo_getAppConfigApi);
-            this.tabPage2.Controls.Add(this.label47);
-            this.tabPage2.Location = new System.Drawing.Point(-891, -495);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(891, 495);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Yogiyo";
+            this.tabYogiyo.BadgeSize = 1F;
+            this.tabYogiyo.Controls.Add(this.yogiyo_logIn3);
+            this.tabYogiyo.Controls.Add(this.label60);
+            this.tabYogiyo.Controls.Add(this.yogiyo_logIn2);
+            this.tabYogiyo.Controls.Add(this.label59);
+            this.tabYogiyo.Controls.Add(this.yogiyo_logIn1);
+            this.tabYogiyo.Controls.Add(this.label48);
+            this.tabYogiyo.Controls.Add(this.yogiyo_heatbeat);
+            this.tabYogiyo.Controls.Add(this.label49);
+            this.tabYogiyo.Controls.Add(this.yogiyo_loadConfig);
+            this.tabYogiyo.Controls.Add(this.label50);
+            this.tabYogiyo.Controls.Add(this.yogiyo_sendCookFinish);
+            this.tabYogiyo.Controls.Add(this.label51);
+            this.tabYogiyo.Controls.Add(this.yogiyo_getDeliveryTime);
+            this.tabYogiyo.Controls.Add(this.label52);
+            this.tabYogiyo.Controls.Add(this.yogiyo_postOrderReady);
+            this.tabYogiyo.Controls.Add(this.label53);
+            this.tabYogiyo.Controls.Add(this.yogiyo_postOrderComplete);
+            this.tabYogiyo.Controls.Add(this.label54);
+            this.tabYogiyo.Controls.Add(this.yogiyo_postOrderReceipt);
+            this.tabYogiyo.Controls.Add(this.label55);
+            this.tabYogiyo.Controls.Add(this.yogiyo_postOrderRefuse);
+            this.tabYogiyo.Controls.Add(this.label56);
+            this.tabYogiyo.Controls.Add(this.yogiyo_getOrderDeliveryStatus);
+            this.tabYogiyo.Controls.Add(this.label57);
+            this.tabYogiyo.Controls.Add(this.yogiyo_getOrdersNewOther);
+            this.tabYogiyo.Controls.Add(this.label58);
+            this.tabYogiyo.Controls.Add(this.yogiyo_getOrders);
+            this.tabYogiyo.Controls.Add(this.label37);
+            this.tabYogiyo.Controls.Add(this.yogiyo_getOrdersFromDate);
+            this.tabYogiyo.Controls.Add(this.label38);
+            this.tabYogiyo.Controls.Add(this.yogiyo_getNewOrders);
+            this.tabYogiyo.Controls.Add(this.label39);
+            this.tabYogiyo.Controls.Add(this.yogiyo_getOrderRejectReason);
+            this.tabYogiyo.Controls.Add(this.label40);
+            this.tabYogiyo.Controls.Add(this.yogiyo_setRestaurantStatus_P);
+            this.tabYogiyo.Controls.Add(this.label41);
+            this.tabYogiyo.Controls.Add(this.yogiyo_setRestaurantStatus_O);
+            this.tabYogiyo.Controls.Add(this.label42);
+            this.tabYogiyo.Controls.Add(this.yogiyo_getRestaurantStatus);
+            this.tabYogiyo.Controls.Add(this.label43);
+            this.tabYogiyo.Controls.Add(this.yogiyo_getRestaurants);
+            this.tabYogiyo.Controls.Add(this.label44);
+            this.tabYogiyo.Controls.Add(this.yogiyo_load_restaurants_Status);
+            this.tabYogiyo.Controls.Add(this.label45);
+            this.tabYogiyo.Controls.Add(this.yogiyo_getAppBuildsApi);
+            this.tabYogiyo.Controls.Add(this.label46);
+            this.tabYogiyo.Controls.Add(this.yogiyo_getAppConfigApi);
+            this.tabYogiyo.Controls.Add(this.label47);
+            this.tabYogiyo.Location = new System.Drawing.Point(-891, -495);
+            this.tabYogiyo.Name = "tabYogiyo";
+            this.tabYogiyo.Padding = new System.Windows.Forms.Padding(3);
+            this.tabYogiyo.Size = new System.Drawing.Size(891, 495);
+            this.tabYogiyo.TabIndex = 1;
+            this.tabYogiyo.Text = "Yogiyo";
             // 
             // yogiyo_logIn3
             // 
+            this.yogiyo_logIn3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.yogiyo_logIn3.Image = global::API_Monitor.Properties.Resources.gray;
-            this.yogiyo_logIn3.Location = new System.Drawing.Point(834, 58);
+            this.yogiyo_logIn3.Location = new System.Drawing.Point(832, 58);
             this.yogiyo_logIn3.Name = "yogiyo_logIn3";
             this.yogiyo_logIn3.Size = new System.Drawing.Size(36, 35);
             this.yogiyo_logIn3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1226,9 +1262,10 @@
             // 
             // label60
             // 
+            this.label60.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label60.AutoSize = true;
             this.label60.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label60.Location = new System.Drawing.Point(761, 62);
+            this.label60.Location = new System.Drawing.Point(759, 62);
             this.label60.Name = "label60";
             this.label60.Size = new System.Drawing.Size(67, 24);
             this.label60.TabIndex = 68;
@@ -1236,8 +1273,9 @@
             // 
             // yogiyo_logIn2
             // 
+            this.yogiyo_logIn2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.yogiyo_logIn2.Image = global::API_Monitor.Properties.Resources.gray;
-            this.yogiyo_logIn2.Location = new System.Drawing.Point(834, 16);
+            this.yogiyo_logIn2.Location = new System.Drawing.Point(832, 16);
             this.yogiyo_logIn2.Name = "yogiyo_logIn2";
             this.yogiyo_logIn2.Size = new System.Drawing.Size(36, 35);
             this.yogiyo_logIn2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1246,9 +1284,10 @@
             // 
             // label59
             // 
+            this.label59.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label59.AutoSize = true;
             this.label59.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label59.Location = new System.Drawing.Point(761, 21);
+            this.label59.Location = new System.Drawing.Point(759, 21);
             this.label59.Name = "label59";
             this.label59.Size = new System.Drawing.Size(67, 24);
             this.label59.TabIndex = 66;
@@ -1256,8 +1295,9 @@
             // 
             // yogiyo_logIn1
             // 
+            this.yogiyo_logIn1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.yogiyo_logIn1.Image = global::API_Monitor.Properties.Resources.gray;
-            this.yogiyo_logIn1.Location = new System.Drawing.Point(583, 442);
+            this.yogiyo_logIn1.Location = new System.Drawing.Point(582, 442);
             this.yogiyo_logIn1.Name = "yogiyo_logIn1";
             this.yogiyo_logIn1.Size = new System.Drawing.Size(36, 35);
             this.yogiyo_logIn1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1266,9 +1306,10 @@
             // 
             // label48
             // 
+            this.label48.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label48.AutoSize = true;
             this.label48.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label48.Location = new System.Drawing.Point(510, 446);
+            this.label48.Location = new System.Drawing.Point(509, 446);
             this.label48.Name = "label48";
             this.label48.Size = new System.Drawing.Size(67, 24);
             this.label48.TabIndex = 64;
@@ -1276,8 +1317,9 @@
             // 
             // yogiyo_heatbeat
             // 
+            this.yogiyo_heatbeat.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.yogiyo_heatbeat.Image = global::API_Monitor.Properties.Resources.gray;
-            this.yogiyo_heatbeat.Location = new System.Drawing.Point(583, 400);
+            this.yogiyo_heatbeat.Location = new System.Drawing.Point(582, 400);
             this.yogiyo_heatbeat.Name = "yogiyo_heatbeat";
             this.yogiyo_heatbeat.Size = new System.Drawing.Size(36, 35);
             this.yogiyo_heatbeat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1286,9 +1328,10 @@
             // 
             // label49
             // 
+            this.label49.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label49.AutoSize = true;
             this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.Location = new System.Drawing.Point(492, 404);
+            this.label49.Location = new System.Drawing.Point(491, 404);
             this.label49.Name = "label49";
             this.label49.Size = new System.Drawing.Size(85, 24);
             this.label49.TabIndex = 62;
@@ -1296,8 +1339,9 @@
             // 
             // yogiyo_loadConfig
             // 
+            this.yogiyo_loadConfig.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.yogiyo_loadConfig.Image = global::API_Monitor.Properties.Resources.gray;
-            this.yogiyo_loadConfig.Location = new System.Drawing.Point(583, 358);
+            this.yogiyo_loadConfig.Location = new System.Drawing.Point(582, 358);
             this.yogiyo_loadConfig.Name = "yogiyo_loadConfig";
             this.yogiyo_loadConfig.Size = new System.Drawing.Size(36, 35);
             this.yogiyo_loadConfig.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1306,9 +1350,10 @@
             // 
             // label50
             // 
+            this.label50.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label50.AutoSize = true;
             this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label50.Location = new System.Drawing.Point(471, 362);
+            this.label50.Location = new System.Drawing.Point(470, 362);
             this.label50.Name = "label50";
             this.label50.Size = new System.Drawing.Size(106, 24);
             this.label50.TabIndex = 60;
@@ -1316,8 +1361,9 @@
             // 
             // yogiyo_sendCookFinish
             // 
+            this.yogiyo_sendCookFinish.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.yogiyo_sendCookFinish.Image = global::API_Monitor.Properties.Resources.gray;
-            this.yogiyo_sendCookFinish.Location = new System.Drawing.Point(583, 316);
+            this.yogiyo_sendCookFinish.Location = new System.Drawing.Point(582, 316);
             this.yogiyo_sendCookFinish.Name = "yogiyo_sendCookFinish";
             this.yogiyo_sendCookFinish.Size = new System.Drawing.Size(36, 35);
             this.yogiyo_sendCookFinish.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1326,9 +1372,10 @@
             // 
             // label51
             // 
+            this.label51.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label51.AutoSize = true;
             this.label51.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label51.Location = new System.Drawing.Point(427, 320);
+            this.label51.Location = new System.Drawing.Point(426, 320);
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(150, 24);
             this.label51.TabIndex = 58;
@@ -1336,8 +1383,9 @@
             // 
             // yogiyo_getDeliveryTime
             // 
+            this.yogiyo_getDeliveryTime.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.yogiyo_getDeliveryTime.Image = global::API_Monitor.Properties.Resources.gray;
-            this.yogiyo_getDeliveryTime.Location = new System.Drawing.Point(583, 273);
+            this.yogiyo_getDeliveryTime.Location = new System.Drawing.Point(582, 273);
             this.yogiyo_getDeliveryTime.Name = "yogiyo_getDeliveryTime";
             this.yogiyo_getDeliveryTime.Size = new System.Drawing.Size(36, 35);
             this.yogiyo_getDeliveryTime.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1346,9 +1394,10 @@
             // 
             // label52
             // 
+            this.label52.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label52.AutoSize = true;
             this.label52.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label52.Location = new System.Drawing.Point(428, 276);
+            this.label52.Location = new System.Drawing.Point(427, 276);
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(149, 24);
             this.label52.TabIndex = 56;
@@ -1356,8 +1405,9 @@
             // 
             // yogiyo_postOrderReady
             // 
+            this.yogiyo_postOrderReady.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.yogiyo_postOrderReady.Image = global::API_Monitor.Properties.Resources.gray;
-            this.yogiyo_postOrderReady.Location = new System.Drawing.Point(583, 231);
+            this.yogiyo_postOrderReady.Location = new System.Drawing.Point(582, 231);
             this.yogiyo_postOrderReady.Name = "yogiyo_postOrderReady";
             this.yogiyo_postOrderReady.Size = new System.Drawing.Size(36, 35);
             this.yogiyo_postOrderReady.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1366,9 +1416,10 @@
             // 
             // label53
             // 
+            this.label53.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label53.AutoSize = true;
             this.label53.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label53.Location = new System.Drawing.Point(428, 235);
+            this.label53.Location = new System.Drawing.Point(427, 235);
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(149, 24);
             this.label53.TabIndex = 54;
@@ -1376,8 +1427,9 @@
             // 
             // yogiyo_postOrderComplete
             // 
+            this.yogiyo_postOrderComplete.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.yogiyo_postOrderComplete.Image = global::API_Monitor.Properties.Resources.gray;
-            this.yogiyo_postOrderComplete.Location = new System.Drawing.Point(583, 188);
+            this.yogiyo_postOrderComplete.Location = new System.Drawing.Point(582, 188);
             this.yogiyo_postOrderComplete.Name = "yogiyo_postOrderComplete";
             this.yogiyo_postOrderComplete.Size = new System.Drawing.Size(36, 35);
             this.yogiyo_postOrderComplete.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1386,9 +1438,10 @@
             // 
             // label54
             // 
+            this.label54.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label54.AutoSize = true;
             this.label54.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.Location = new System.Drawing.Point(401, 192);
+            this.label54.Location = new System.Drawing.Point(400, 192);
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(176, 24);
             this.label54.TabIndex = 52;
@@ -1396,8 +1449,9 @@
             // 
             // yogiyo_postOrderReceipt
             // 
+            this.yogiyo_postOrderReceipt.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.yogiyo_postOrderReceipt.Image = global::API_Monitor.Properties.Resources.gray;
-            this.yogiyo_postOrderReceipt.Location = new System.Drawing.Point(583, 145);
+            this.yogiyo_postOrderReceipt.Location = new System.Drawing.Point(582, 145);
             this.yogiyo_postOrderReceipt.Name = "yogiyo_postOrderReceipt";
             this.yogiyo_postOrderReceipt.Size = new System.Drawing.Size(36, 35);
             this.yogiyo_postOrderReceipt.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1406,9 +1460,10 @@
             // 
             // label55
             // 
+            this.label55.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label55.AutoSize = true;
             this.label55.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label55.Location = new System.Drawing.Point(418, 150);
+            this.label55.Location = new System.Drawing.Point(417, 150);
             this.label55.Name = "label55";
             this.label55.Size = new System.Drawing.Size(159, 24);
             this.label55.TabIndex = 50;
@@ -1416,8 +1471,9 @@
             // 
             // yogiyo_postOrderRefuse
             // 
+            this.yogiyo_postOrderRefuse.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.yogiyo_postOrderRefuse.Image = global::API_Monitor.Properties.Resources.gray;
-            this.yogiyo_postOrderRefuse.Location = new System.Drawing.Point(583, 102);
+            this.yogiyo_postOrderRefuse.Location = new System.Drawing.Point(582, 102);
             this.yogiyo_postOrderRefuse.Name = "yogiyo_postOrderRefuse";
             this.yogiyo_postOrderRefuse.Size = new System.Drawing.Size(36, 35);
             this.yogiyo_postOrderRefuse.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1426,9 +1482,10 @@
             // 
             // label56
             // 
+            this.label56.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label56.AutoSize = true;
             this.label56.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label56.Location = new System.Drawing.Point(423, 106);
+            this.label56.Location = new System.Drawing.Point(422, 106);
             this.label56.Name = "label56";
             this.label56.Size = new System.Drawing.Size(154, 24);
             this.label56.TabIndex = 48;
@@ -1436,8 +1493,9 @@
             // 
             // yogiyo_getOrderDeliveryStatus
             // 
+            this.yogiyo_getOrderDeliveryStatus.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.yogiyo_getOrderDeliveryStatus.Image = global::API_Monitor.Properties.Resources.gray;
-            this.yogiyo_getOrderDeliveryStatus.Location = new System.Drawing.Point(583, 59);
+            this.yogiyo_getOrderDeliveryStatus.Location = new System.Drawing.Point(582, 59);
             this.yogiyo_getOrderDeliveryStatus.Name = "yogiyo_getOrderDeliveryStatus";
             this.yogiyo_getOrderDeliveryStatus.Size = new System.Drawing.Size(36, 35);
             this.yogiyo_getOrderDeliveryStatus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1446,9 +1504,10 @@
             // 
             // label57
             // 
+            this.label57.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label57.AutoSize = true;
             this.label57.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label57.Location = new System.Drawing.Point(372, 63);
+            this.label57.Location = new System.Drawing.Point(371, 63);
             this.label57.Name = "label57";
             this.label57.Size = new System.Drawing.Size(205, 24);
             this.label57.TabIndex = 46;
@@ -1456,8 +1515,9 @@
             // 
             // yogiyo_getOrdersNewOther
             // 
+            this.yogiyo_getOrdersNewOther.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.yogiyo_getOrdersNewOther.Image = global::API_Monitor.Properties.Resources.gray;
-            this.yogiyo_getOrdersNewOther.Location = new System.Drawing.Point(583, 16);
+            this.yogiyo_getOrdersNewOther.Location = new System.Drawing.Point(582, 16);
             this.yogiyo_getOrdersNewOther.Name = "yogiyo_getOrdersNewOther";
             this.yogiyo_getOrdersNewOther.Size = new System.Drawing.Size(36, 35);
             this.yogiyo_getOrdersNewOther.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1466,9 +1526,10 @@
             // 
             // label58
             // 
+            this.label58.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label58.AutoSize = true;
             this.label58.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label58.Location = new System.Drawing.Point(394, 21);
+            this.label58.Location = new System.Drawing.Point(393, 21);
             this.label58.Name = "label58";
             this.label58.Size = new System.Drawing.Size(183, 24);
             this.label58.TabIndex = 44;
@@ -1694,41 +1755,42 @@
             this.label47.TabIndex = 22;
             this.label47.Text = "GetAppConfigApi";
             // 
-            // tabPage13
+            // tabYogiyo_web
             // 
-            this.tabPage13.Controls.Add(this.yogiyo_web_getMenus);
-            this.tabPage13.Controls.Add(this.label74);
-            this.tabPage13.Controls.Add(this.yogiyo_web_postReviewReply);
-            this.tabPage13.Controls.Add(this.label72);
-            this.tabPage13.Controls.Add(this.yogiyo_web_loadReviews);
-            this.tabPage13.Controls.Add(this.label73);
-            this.tabPage13.Controls.Add(this.yogiyo_web_loadOrders2);
-            this.tabPage13.Controls.Add(this.label61);
-            this.tabPage13.Controls.Add(this.yogiyo_web_loadOrders1);
-            this.tabPage13.Controls.Add(this.label62);
-            this.tabPage13.Controls.Add(this.yogiyo_web_loadOrders);
-            this.tabPage13.Controls.Add(this.label63);
-            this.tabPage13.Controls.Add(this.yogiyo_web_loadRestaurantsStatus);
-            this.tabPage13.Controls.Add(this.label64);
-            this.tabPage13.Controls.Add(this.yogiyo_web_getNewRestarant);
-            this.tabPage13.Controls.Add(this.label65);
-            this.tabPage13.Controls.Add(this.yogiyo_web_loadRestaurants1);
-            this.tabPage13.Controls.Add(this.label66);
-            this.tabPage13.Controls.Add(this.yogiyo_web_loadRestaurants);
-            this.tabPage13.Controls.Add(this.label67);
-            this.tabPage13.Controls.Add(this.yogiyo_web_getCompany);
-            this.tabPage13.Controls.Add(this.label68);
-            this.tabPage13.Controls.Add(this.yogiyo_web_login2);
-            this.tabPage13.Controls.Add(this.label69);
-            this.tabPage13.Controls.Add(this.yogiyo_web_login1);
-            this.tabPage13.Controls.Add(this.label70);
-            this.tabPage13.Controls.Add(this.yogiyo_web_logout);
-            this.tabPage13.Controls.Add(this.label71);
-            this.tabPage13.Location = new System.Drawing.Point(-891, -495);
-            this.tabPage13.Name = "tabPage13";
-            this.tabPage13.Size = new System.Drawing.Size(891, 495);
-            this.tabPage13.TabIndex = 12;
-            this.tabPage13.Text = "Yogiyo_Web";
+            this.tabYogiyo_web.BadgeSize = 1F;
+            this.tabYogiyo_web.Controls.Add(this.yogiyo_web_getMenus);
+            this.tabYogiyo_web.Controls.Add(this.label74);
+            this.tabYogiyo_web.Controls.Add(this.yogiyo_web_postReviewReply);
+            this.tabYogiyo_web.Controls.Add(this.label72);
+            this.tabYogiyo_web.Controls.Add(this.yogiyo_web_loadReviews);
+            this.tabYogiyo_web.Controls.Add(this.label73);
+            this.tabYogiyo_web.Controls.Add(this.yogiyo_web_loadOrders2);
+            this.tabYogiyo_web.Controls.Add(this.label61);
+            this.tabYogiyo_web.Controls.Add(this.yogiyo_web_loadOrders1);
+            this.tabYogiyo_web.Controls.Add(this.label62);
+            this.tabYogiyo_web.Controls.Add(this.yogiyo_web_loadOrders);
+            this.tabYogiyo_web.Controls.Add(this.label63);
+            this.tabYogiyo_web.Controls.Add(this.yogiyo_web_loadRestaurantsStatus);
+            this.tabYogiyo_web.Controls.Add(this.label64);
+            this.tabYogiyo_web.Controls.Add(this.yogiyo_web_getNewRestarant);
+            this.tabYogiyo_web.Controls.Add(this.label65);
+            this.tabYogiyo_web.Controls.Add(this.yogiyo_web_loadRestaurants1);
+            this.tabYogiyo_web.Controls.Add(this.label66);
+            this.tabYogiyo_web.Controls.Add(this.yogiyo_web_loadRestaurants);
+            this.tabYogiyo_web.Controls.Add(this.label67);
+            this.tabYogiyo_web.Controls.Add(this.yogiyo_web_getCompany);
+            this.tabYogiyo_web.Controls.Add(this.label68);
+            this.tabYogiyo_web.Controls.Add(this.yogiyo_web_login2);
+            this.tabYogiyo_web.Controls.Add(this.label69);
+            this.tabYogiyo_web.Controls.Add(this.yogiyo_web_login1);
+            this.tabYogiyo_web.Controls.Add(this.label70);
+            this.tabYogiyo_web.Controls.Add(this.yogiyo_web_logout);
+            this.tabYogiyo_web.Controls.Add(this.label71);
+            this.tabYogiyo_web.Location = new System.Drawing.Point(-891, -495);
+            this.tabYogiyo_web.Name = "tabYogiyo_web";
+            this.tabYogiyo_web.Size = new System.Drawing.Size(891, 495);
+            this.tabYogiyo_web.TabIndex = 12;
+            this.tabYogiyo_web.Text = "Yogiyo_Web";
             // 
             // yogiyo_web_getMenus
             // 
@@ -2010,55 +2072,56 @@
             this.label71.TabIndex = 66;
             this.label71.Text = "Logout";
             // 
-            // tabPage3
+            // tabCoupang
             // 
-            this.tabPage3.Controls.Add(this.coupangeats_callLoginApi);
-            this.tabPage3.Controls.Add(this.label87);
-            this.tabPage3.Controls.Add(this.coupangeats_logOut);
-            this.tabPage3.Controls.Add(this.label88);
-            this.tabPage3.Controls.Add(this.coupangeats_logIn);
-            this.tabPage3.Controls.Add(this.label89);
-            this.tabPage3.Controls.Add(this.coupangeats_cancelOrder);
-            this.tabPage3.Controls.Add(this.label90);
-            this.tabPage3.Controls.Add(this.coupangeats_getOrderRejectCodes);
-            this.tabPage3.Controls.Add(this.label91);
-            this.tabPage3.Controls.Add(this.coupangeats_completeOrder);
-            this.tabPage3.Controls.Add(this.label92);
-            this.tabPage3.Controls.Add(this.coupangeats_readyOrder);
-            this.tabPage3.Controls.Add(this.label93);
-            this.tabPage3.Controls.Add(this.coupangeats_delayOrder);
-            this.tabPage3.Controls.Add(this.label94);
-            this.tabPage3.Controls.Add(this.coupangeats_acceptOrder);
-            this.tabPage3.Controls.Add(this.label95);
-            this.tabPage3.Controls.Add(this.coupangeats_getOrderDetail);
-            this.tabPage3.Controls.Add(this.label96);
-            this.tabPage3.Controls.Add(this.coupangeats_getOrders);
-            this.tabPage3.Controls.Add(this.label75);
-            this.tabPage3.Controls.Add(this.coupangeats_getOrdersFromDate);
-            this.tabPage3.Controls.Add(this.label76);
-            this.tabPage3.Controls.Add(this.coupangeats_getPhoneNumber);
-            this.tabPage3.Controls.Add(this.label77);
-            this.tabPage3.Controls.Add(this.coupangeats_packaging_Complete_Notify);
-            this.tabPage3.Controls.Add(this.label78);
-            this.tabPage3.Controls.Add(this.coupangeats_completeDelivery);
-            this.tabPage3.Controls.Add(this.label79);
-            this.tabPage3.Controls.Add(this.coupangeats_getCsInfo);
-            this.tabPage3.Controls.Add(this.label80);
-            this.tabPage3.Controls.Add(this.coupangeats_postStores);
-            this.tabPage3.Controls.Add(this.label81);
-            this.tabPage3.Controls.Add(this.coupangeats_postStore);
-            this.tabPage3.Controls.Add(this.label82);
-            this.tabPage3.Controls.Add(this.coupangeats_setRestaurantStatus);
-            this.tabPage3.Controls.Add(this.label83);
-            this.tabPage3.Controls.Add(this.coupangeats_getRestaurantStatus);
-            this.tabPage3.Controls.Add(this.label84);
-            this.tabPage3.Controls.Add(this.coupangeats_getRestaurants);
-            this.tabPage3.Controls.Add(this.label85);
-            this.tabPage3.Location = new System.Drawing.Point(-891, -495);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(891, 495);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Coupangeats";
+            this.tabCoupang.BadgeSize = 1F;
+            this.tabCoupang.Controls.Add(this.coupangeats_callLoginApi);
+            this.tabCoupang.Controls.Add(this.label87);
+            this.tabCoupang.Controls.Add(this.coupangeats_logOut);
+            this.tabCoupang.Controls.Add(this.label88);
+            this.tabCoupang.Controls.Add(this.coupangeats_logIn);
+            this.tabCoupang.Controls.Add(this.label89);
+            this.tabCoupang.Controls.Add(this.coupangeats_cancelOrder);
+            this.tabCoupang.Controls.Add(this.label90);
+            this.tabCoupang.Controls.Add(this.coupangeats_getOrderRejectCodes);
+            this.tabCoupang.Controls.Add(this.label91);
+            this.tabCoupang.Controls.Add(this.coupangeats_completeOrder);
+            this.tabCoupang.Controls.Add(this.label92);
+            this.tabCoupang.Controls.Add(this.coupangeats_readyOrder);
+            this.tabCoupang.Controls.Add(this.label93);
+            this.tabCoupang.Controls.Add(this.coupangeats_delayOrder);
+            this.tabCoupang.Controls.Add(this.label94);
+            this.tabCoupang.Controls.Add(this.coupangeats_acceptOrder);
+            this.tabCoupang.Controls.Add(this.label95);
+            this.tabCoupang.Controls.Add(this.coupangeats_getOrderDetail);
+            this.tabCoupang.Controls.Add(this.label96);
+            this.tabCoupang.Controls.Add(this.coupangeats_getOrders);
+            this.tabCoupang.Controls.Add(this.label75);
+            this.tabCoupang.Controls.Add(this.coupangeats_getOrdersFromDate);
+            this.tabCoupang.Controls.Add(this.label76);
+            this.tabCoupang.Controls.Add(this.coupangeats_getPhoneNumber);
+            this.tabCoupang.Controls.Add(this.label77);
+            this.tabCoupang.Controls.Add(this.coupangeats_packaging_Complete_Notify);
+            this.tabCoupang.Controls.Add(this.label78);
+            this.tabCoupang.Controls.Add(this.coupangeats_completeDelivery);
+            this.tabCoupang.Controls.Add(this.label79);
+            this.tabCoupang.Controls.Add(this.coupangeats_getCsInfo);
+            this.tabCoupang.Controls.Add(this.label80);
+            this.tabCoupang.Controls.Add(this.coupangeats_postStores);
+            this.tabCoupang.Controls.Add(this.label81);
+            this.tabCoupang.Controls.Add(this.coupangeats_postStore);
+            this.tabCoupang.Controls.Add(this.label82);
+            this.tabCoupang.Controls.Add(this.coupangeats_setRestaurantStatus);
+            this.tabCoupang.Controls.Add(this.label83);
+            this.tabCoupang.Controls.Add(this.coupangeats_getRestaurantStatus);
+            this.tabCoupang.Controls.Add(this.label84);
+            this.tabCoupang.Controls.Add(this.coupangeats_getRestaurants);
+            this.tabCoupang.Controls.Add(this.label85);
+            this.tabCoupang.Location = new System.Drawing.Point(-891, -495);
+            this.tabCoupang.Name = "tabCoupang";
+            this.tabCoupang.Size = new System.Drawing.Size(891, 495);
+            this.tabCoupang.TabIndex = 2;
+            this.tabCoupang.Text = "Coupangeats";
             // 
             // coupangeats_callLoginApi
             // 
@@ -2480,39 +2543,40 @@
             this.label85.TabIndex = 66;
             this.label85.Text = "GetRestaurants";
             // 
-            // tabPage14
+            // tabCoupang_web
             // 
-            this.tabPage14.Controls.Add(this.coupangeats_web_addReviewReplyApi);
-            this.tabPage14.Controls.Add(this.label107);
-            this.tabPage14.Controls.Add(this.coupangeats_web_getReviewSummaryApi);
-            this.tabPage14.Controls.Add(this.label108);
-            this.tabPage14.Controls.Add(this.coupangeats_web_searchReviewsApi);
-            this.tabPage14.Controls.Add(this.label86);
-            this.tabPage14.Controls.Add(this.coupangeats_web_getOrderStatsApi);
-            this.tabPage14.Controls.Add(this.label97);
-            this.tabPage14.Controls.Add(this.coupangeats_web_changeMenuStatusApi);
-            this.tabPage14.Controls.Add(this.label98);
-            this.tabPage14.Controls.Add(this.coupangeats_web_getMenuDishesApi);
-            this.tabPage14.Controls.Add(this.label99);
-            this.tabPage14.Controls.Add(this.coupangeats_web_updateMenuDetailsApi);
-            this.tabPage14.Controls.Add(this.label100);
-            this.tabPage14.Controls.Add(this.coupangeats_web_getMenuGroupsApi);
-            this.tabPage14.Controls.Add(this.label101);
-            this.tabPage14.Controls.Add(this.coupangeats_web_getMenuDetailsApi);
-            this.tabPage14.Controls.Add(this.label102);
-            this.tabPage14.Controls.Add(this.coupangeats_web_getStoreListApi);
-            this.tabPage14.Controls.Add(this.label103);
-            this.tabPage14.Controls.Add(this.coupangeats_web_getHomepageApi);
-            this.tabPage14.Controls.Add(this.label104);
-            this.tabPage14.Controls.Add(this.coupangeats_web_logOut);
-            this.tabPage14.Controls.Add(this.label105);
-            this.tabPage14.Controls.Add(this.coupangeats_web_logIn);
-            this.tabPage14.Controls.Add(this.label106);
-            this.tabPage14.Location = new System.Drawing.Point(-891, -495);
-            this.tabPage14.Name = "tabPage14";
-            this.tabPage14.Size = new System.Drawing.Size(891, 495);
-            this.tabPage14.TabIndex = 13;
-            this.tabPage14.Text = "CoupangEats_Web";
+            this.tabCoupang_web.BadgeSize = 1F;
+            this.tabCoupang_web.Controls.Add(this.coupangeats_web_addReviewReplyApi);
+            this.tabCoupang_web.Controls.Add(this.label107);
+            this.tabCoupang_web.Controls.Add(this.coupangeats_web_getReviewSummaryApi);
+            this.tabCoupang_web.Controls.Add(this.label108);
+            this.tabCoupang_web.Controls.Add(this.coupangeats_web_searchReviewsApi);
+            this.tabCoupang_web.Controls.Add(this.label86);
+            this.tabCoupang_web.Controls.Add(this.coupangeats_web_getOrderStatsApi);
+            this.tabCoupang_web.Controls.Add(this.label97);
+            this.tabCoupang_web.Controls.Add(this.coupangeats_web_changeMenuStatusApi);
+            this.tabCoupang_web.Controls.Add(this.label98);
+            this.tabCoupang_web.Controls.Add(this.coupangeats_web_getMenuDishesApi);
+            this.tabCoupang_web.Controls.Add(this.label99);
+            this.tabCoupang_web.Controls.Add(this.coupangeats_web_updateMenuDetailsApi);
+            this.tabCoupang_web.Controls.Add(this.label100);
+            this.tabCoupang_web.Controls.Add(this.coupangeats_web_getMenuGroupsApi);
+            this.tabCoupang_web.Controls.Add(this.label101);
+            this.tabCoupang_web.Controls.Add(this.coupangeats_web_getMenuDetailsApi);
+            this.tabCoupang_web.Controls.Add(this.label102);
+            this.tabCoupang_web.Controls.Add(this.coupangeats_web_getStoreListApi);
+            this.tabCoupang_web.Controls.Add(this.label103);
+            this.tabCoupang_web.Controls.Add(this.coupangeats_web_getHomepageApi);
+            this.tabCoupang_web.Controls.Add(this.label104);
+            this.tabCoupang_web.Controls.Add(this.coupangeats_web_logOut);
+            this.tabCoupang_web.Controls.Add(this.label105);
+            this.tabCoupang_web.Controls.Add(this.coupangeats_web_logIn);
+            this.tabCoupang_web.Controls.Add(this.label106);
+            this.tabCoupang_web.Location = new System.Drawing.Point(-891, -495);
+            this.tabCoupang_web.Name = "tabCoupang_web";
+            this.tabCoupang_web.Size = new System.Drawing.Size(891, 495);
+            this.tabCoupang_web.TabIndex = 13;
+            this.tabCoupang_web.Text = "CoupangEats_Web";
             // 
             // coupangeats_web_addReviewReplyApi
             // 
@@ -2774,43 +2838,44 @@
             this.label106.TabIndex = 44;
             this.label106.Text = "LogIn";
             // 
-            // tabPage4
+            // tabNaver
             // 
-            this.tabPage4.Controls.Add(this.naverchannel_patchSettingApi);
-            this.tabPage4.Controls.Add(this.label119);
-            this.tabPage4.Controls.Add(this.naverchannel_getOrderStatsApi);
-            this.tabPage4.Controls.Add(this.label120);
-            this.tabPage4.Controls.Add(this.naverchannel_getOrderList);
-            this.tabPage4.Controls.Add(this.label121);
-            this.tabPage4.Controls.Add(this.naverchannel_getAllOrders);
-            this.tabPage4.Controls.Add(this.label122);
-            this.tabPage4.Controls.Add(this.naverchannel_cancelOrderApi);
-            this.tabPage4.Controls.Add(this.label4);
-            this.tabPage4.Controls.Add(this.naverchannel_startCookingApi);
-            this.tabPage4.Controls.Add(this.label5);
-            this.tabPage4.Controls.Add(this.naverchannel_orderComplete);
-            this.tabPage4.Controls.Add(this.label109);
-            this.tabPage4.Controls.Add(this.naverchannel_callGetBusinessItemsApi);
-            this.tabPage4.Controls.Add(this.label111);
-            this.tabPage4.Controls.Add(this.naverchannel_callGetBusinessInfoApi);
-            this.tabPage4.Controls.Add(this.label112);
-            this.tabPage4.Controls.Add(this.naverchannel_callUserInfoApi);
-            this.tabPage4.Controls.Add(this.label113);
-            this.tabPage4.Controls.Add(this.naverchannel_callFinalizeApi);
-            this.tabPage4.Controls.Add(this.label114);
-            this.tabPage4.Controls.Add(this.naverchannel_callLoginApi);
-            this.tabPage4.Controls.Add(this.label115);
-            this.tabPage4.Controls.Add(this.naverchannel_getSessionInfoApi);
-            this.tabPage4.Controls.Add(this.label116);
-            this.tabPage4.Controls.Add(this.naverchannel_logOut);
-            this.tabPage4.Controls.Add(this.label117);
-            this.tabPage4.Controls.Add(this.naverchannel_logIn);
-            this.tabPage4.Controls.Add(this.label118);
-            this.tabPage4.Location = new System.Drawing.Point(-891, -495);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(891, 495);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "NaverChannel";
+            this.tabNaver.BadgeSize = 1F;
+            this.tabNaver.Controls.Add(this.naverchannel_patchSettingApi);
+            this.tabNaver.Controls.Add(this.label119);
+            this.tabNaver.Controls.Add(this.naverchannel_getOrderStatsApi);
+            this.tabNaver.Controls.Add(this.label120);
+            this.tabNaver.Controls.Add(this.naverchannel_getOrderList);
+            this.tabNaver.Controls.Add(this.label121);
+            this.tabNaver.Controls.Add(this.naverchannel_getAllOrders);
+            this.tabNaver.Controls.Add(this.label122);
+            this.tabNaver.Controls.Add(this.naverchannel_cancelOrderApi);
+            this.tabNaver.Controls.Add(this.label4);
+            this.tabNaver.Controls.Add(this.naverchannel_startCookingApi);
+            this.tabNaver.Controls.Add(this.label5);
+            this.tabNaver.Controls.Add(this.naverchannel_orderComplete);
+            this.tabNaver.Controls.Add(this.label109);
+            this.tabNaver.Controls.Add(this.naverchannel_callGetBusinessItemsApi);
+            this.tabNaver.Controls.Add(this.label111);
+            this.tabNaver.Controls.Add(this.naverchannel_callGetBusinessInfoApi);
+            this.tabNaver.Controls.Add(this.label112);
+            this.tabNaver.Controls.Add(this.naverchannel_callUserInfoApi);
+            this.tabNaver.Controls.Add(this.label113);
+            this.tabNaver.Controls.Add(this.naverchannel_callFinalizeApi);
+            this.tabNaver.Controls.Add(this.label114);
+            this.tabNaver.Controls.Add(this.naverchannel_callLoginApi);
+            this.tabNaver.Controls.Add(this.label115);
+            this.tabNaver.Controls.Add(this.naverchannel_getSessionInfoApi);
+            this.tabNaver.Controls.Add(this.label116);
+            this.tabNaver.Controls.Add(this.naverchannel_logOut);
+            this.tabNaver.Controls.Add(this.label117);
+            this.tabNaver.Controls.Add(this.naverchannel_logIn);
+            this.tabNaver.Controls.Add(this.label118);
+            this.tabNaver.Location = new System.Drawing.Point(-891, -495);
+            this.tabNaver.Name = "tabNaver";
+            this.tabNaver.Size = new System.Drawing.Size(891, 495);
+            this.tabNaver.TabIndex = 3;
+            this.tabNaver.Text = "NaverChannel";
             // 
             // naverchannel_patchSettingApi
             // 
@@ -3116,7 +3181,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 54);
+            this.label2.Location = new System.Drawing.Point(12, 57);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(116, 25);
             this.label2.TabIndex = 2;
@@ -3124,9 +3189,10 @@
             // 
             // label3
             // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(510, 54);
+            this.label3.Location = new System.Drawing.Point(510, 57);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(207, 25);
             this.label3.TabIndex = 3;
@@ -3136,7 +3202,7 @@
             // 
             this.nTotal_API.AutoSize = true;
             this.nTotal_API.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nTotal_API.Location = new System.Drawing.Point(123, 54);
+            this.nTotal_API.Location = new System.Drawing.Point(123, 57);
             this.nTotal_API.Name = "nTotal_API";
             this.nTotal_API.Size = new System.Drawing.Size(30, 25);
             this.nTotal_API.TabIndex = 5;
@@ -3144,9 +3210,10 @@
             // 
             // nError_API
             // 
+            this.nError_API.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.nError_API.AutoSize = true;
             this.nError_API.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nError_API.Location = new System.Drawing.Point(712, 54);
+            this.nError_API.Location = new System.Drawing.Point(712, 57);
             this.nError_API.Name = "nError_API";
             this.nError_API.Size = new System.Drawing.Size(30, 25);
             this.nError_API.TabIndex = 6;
@@ -3154,9 +3221,10 @@
             // 
             // nChecked_API
             // 
+            this.nChecked_API.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.nChecked_API.AutoSize = true;
             this.nChecked_API.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nChecked_API.Location = new System.Drawing.Point(389, 54);
+            this.nChecked_API.Location = new System.Drawing.Point(399, 57);
             this.nChecked_API.Name = "nChecked_API";
             this.nChecked_API.Size = new System.Drawing.Size(30, 25);
             this.nChecked_API.TabIndex = 8;
@@ -3164,9 +3232,10 @@
             // 
             // label110
             // 
+            this.label110.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label110.AutoSize = true;
             this.label110.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label110.Location = new System.Drawing.Point(241, 54);
+            this.label110.Location = new System.Drawing.Point(251, 57);
             this.label110.Name = "label110";
             this.label110.Size = new System.Drawing.Size(153, 25);
             this.label110.TabIndex = 7;
@@ -3196,6 +3265,8 @@
             // pageHeader1
             // 
             this.pageHeader1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pageHeader1.BadgeAlign = AntdUI.TAlignFrom.Bottom;
+            this.pageHeader1.BadgeSize = 1F;
             this.pageHeader1.Controls.Add(this.btn_mode);
             this.pageHeader1.DividerMargin = 3;
             this.pageHeader1.DividerShow = true;
@@ -3212,14 +3283,14 @@
             // 
             // btn_refresh
             // 
+            this.btn_refresh.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_refresh.AutoSizeMode = AntdUI.TAutoSize.Auto;
             this.btn_refresh.IconSvg = "ReloadOutlined";
-            this.btn_refresh.LoadingWaveVertical = true;
-            this.btn_refresh.Location = new System.Drawing.Point(873, 48);
+            this.btn_refresh.Location = new System.Drawing.Point(822, 51);
             this.btn_refresh.Name = "btn_refresh";
-            this.btn_refresh.Shape = AntdUI.TShape.Circle;
-            this.btn_refresh.Size = new System.Drawing.Size(38, 38);
+            this.btn_refresh.Size = new System.Drawing.Size(89, 38);
             this.btn_refresh.TabIndex = 10;
+            this.btn_refresh.Text = "Refresh";
             this.tooltipComponent1.SetTip(this.btn_refresh, "Refresh websocket");
             this.btn_refresh.Type = AntdUI.TTypeMini.Primary;
             this.btn_refresh.Click += new System.EventHandler(this.btn_refresh_Click);
@@ -3245,8 +3316,8 @@
             this.Text = "API Monitor";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
+            this.tabBaemin.ResumeLayout(false);
+            this.tabBaemin.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.baemin_logOut)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.baemin_refreshToken2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.baemin_afterLogIn2)).EndInit();
@@ -3272,8 +3343,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.baemin_refreshToken)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.baemin_preLogIn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.baemin_getRiderDistance)).EndInit();
-            this.tabPage12.ResumeLayout(false);
-            this.tabPage12.PerformLayout();
+            this.tabBaemin_web.ResumeLayout(false);
+            this.tabBaemin_web.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.baemin_web_postReviews)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.baemin_web_getReviews)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.baemin_web_getOrders2)).EndInit();
@@ -3281,8 +3352,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.baemin_web_login3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.baemin_web_login2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.baemin_web_login1)).EndInit();
-            this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
+            this.tabYogiyo.ResumeLayout(false);
+            this.tabYogiyo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.yogiyo_logIn3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.yogiyo_logIn2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.yogiyo_logIn1)).EndInit();
@@ -3307,8 +3378,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.yogiyo_load_restaurants_Status)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.yogiyo_getAppBuildsApi)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.yogiyo_getAppConfigApi)).EndInit();
-            this.tabPage13.ResumeLayout(false);
-            this.tabPage13.PerformLayout();
+            this.tabYogiyo_web.ResumeLayout(false);
+            this.tabYogiyo_web.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.yogiyo_web_getMenus)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.yogiyo_web_postReviewReply)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.yogiyo_web_loadReviews)).EndInit();
@@ -3323,8 +3394,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.yogiyo_web_login2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.yogiyo_web_login1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.yogiyo_web_logout)).EndInit();
-            this.tabPage3.ResumeLayout(false);
-            this.tabPage3.PerformLayout();
+            this.tabCoupang.ResumeLayout(false);
+            this.tabCoupang.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.coupangeats_callLoginApi)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.coupangeats_logOut)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.coupangeats_logIn)).EndInit();
@@ -3346,8 +3417,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.coupangeats_setRestaurantStatus)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.coupangeats_getRestaurantStatus)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.coupangeats_getRestaurants)).EndInit();
-            this.tabPage14.ResumeLayout(false);
-            this.tabPage14.PerformLayout();
+            this.tabCoupang_web.ResumeLayout(false);
+            this.tabCoupang_web.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.coupangeats_web_addReviewReplyApi)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.coupangeats_web_getReviewSummaryApi)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.coupangeats_web_searchReviewsApi)).EndInit();
@@ -3361,8 +3432,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.coupangeats_web_getHomepageApi)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.coupangeats_web_logOut)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.coupangeats_web_logIn)).EndInit();
-            this.tabPage4.ResumeLayout(false);
-            this.tabPage4.PerformLayout();
+            this.tabNaver.ResumeLayout(false);
+            this.tabNaver.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.naverchannel_patchSettingApi)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.naverchannel_getOrderStatsApi)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.naverchannel_getOrderList)).EndInit();
@@ -3387,10 +3458,10 @@
         #endregion
 
         private AntdUI.Tabs tabControl1;
-        private AntdUI.TabPage tabPage1;
-        private AntdUI.TabPage tabPage2;
-        private AntdUI.TabPage tabPage3;
-        private AntdUI.TabPage tabPage4;
+        private AntdUI.TabPage tabBaemin;
+        private AntdUI.TabPage tabYogiyo;
+        private AntdUI.TabPage tabCoupang;
+        private AntdUI.TabPage tabNaver;
         private System.Windows.Forms.PictureBox baemin_getRiderDistance;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
@@ -3445,7 +3516,7 @@
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.PictureBox baemin_afterLogIn1;
         private System.Windows.Forms.Label label26;
-        private AntdUI.TabPage tabPage12;
+        private AntdUI.TabPage tabBaemin_web;
         private System.Windows.Forms.PictureBox baemin_web_getReviews;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.PictureBox baemin_web_getOrders2;
@@ -3508,7 +3579,7 @@
         private System.Windows.Forms.Label label60;
         private System.Windows.Forms.PictureBox yogiyo_logIn2;
         private System.Windows.Forms.Label label59;
-        private AntdUI.TabPage tabPage13;
+        private AntdUI.TabPage tabYogiyo_web;
         private System.Windows.Forms.PictureBox yogiyo_web_loadOrders2;
         private System.Windows.Forms.Label label61;
         private System.Windows.Forms.PictureBox yogiyo_web_loadOrders1;
@@ -3579,7 +3650,7 @@
         private System.Windows.Forms.Label label95;
         private System.Windows.Forms.PictureBox coupangeats_getOrderDetail;
         private System.Windows.Forms.Label label96;
-        private AntdUI.TabPage tabPage14;
+        private AntdUI.TabPage tabCoupang_web;
         private System.Windows.Forms.PictureBox coupangeats_web_searchReviewsApi;
         private System.Windows.Forms.Label label86;
         private System.Windows.Forms.PictureBox coupangeats_web_getOrderStatsApi;

@@ -11,7 +11,7 @@ namespace API_Monitor
     public partial class Form1 : AntdUI.Window
     {
         WebSocket ws;
-        public int nTotal, nChecked, nError;
+        public int nTotal, nChecked, nError, nBaemin, nBaemin_web, nYogiyo, nYogiyo_web, nCoupang, nCoupang_web, nNaver;
         public Form1()
         {
             InitializeComponent();
@@ -120,9 +120,29 @@ namespace API_Monitor
                     btn.LoadingWaveValue = i / 100F;
                     Thread.Sleep(5);
                 }
-                Thread.Sleep(1000);
             }, () =>
             {
+                ws.Close();
+
+                nChecked = nError = 0;
+                foreach (AntdUI.TabPage tabPage in tabControl1.Pages)
+                {
+                    foreach (Control control in tabPage.Controls)
+                    {
+                        if (control is PictureBox)
+                        {
+                            ((PictureBox)control).Image = Resources.gray;
+                            ((PictureBox)control).Tag = "gray";
+                        }
+                    }
+                }
+
+                this.Invoke((MethodInvoker)(() =>
+                {
+                    getAPI_Status();
+                }));
+
+                ws.Connect() ;
                 if (btn.IsDisposed) return;
                 btn.Loading = false;
             });
@@ -157,15 +177,51 @@ namespace API_Monitor
                     if (control is PictureBox)
                     {
                         if (((PictureBox)control).Tag?.ToString() == "green" || ((PictureBox)control).Tag?.ToString() == "red") nChecked++;
-                        if(((PictureBox)control).Tag?.ToString() == "red") nError++;
+                        if (((PictureBox)control).Tag?.ToString() == "red")
+                        {
+                            nError++;
+                            if(control.Name.Contains("baemin"))
+                            {
+                                if (control.Name.Contains("web")) nBaemin_web++;
+                                else nBaemin++;
+                            }
+                            if (control.Name.Contains("yogiyo"))
+                            {
+                                if (control.Name.Contains("web")) nYogiyo++;
+                                else nYogiyo_web++;
+                            }
+                            if (control.Name.Contains("coupangeats"))
+                            {
+                                if (control.Name.Contains("web")) nCoupang++;
+                                else nCoupang_web++;
+                            }
+                            if (control.Name.Contains("naverchannel")) nNaver++;
+                        }
                         nTotal++;
                     }
                 }
             }
+
             nTotal_API.Text = nTotal.ToString();
             nChecked_API.Text = nChecked.ToString();
             nError_API.Text = nError.ToString();
-            nTotal = nChecked = nError = 0;
+
+            if(nBaemin != 0)
+                tabBaemin.Badge = nBaemin.ToString();
+            if(nBaemin_web !=0)
+                tabBaemin_web.Badge = nBaemin_web.ToString();
+            if(nYogiyo != 0)
+                tabYogiyo.Badge = nYogiyo.ToString();
+            if(nYogiyo_web != 0)
+                tabYogiyo_web.Badge = nYogiyo_web.ToString() ;
+            if(nCoupang != 0)
+                tabCoupang.Badge = nCoupang.ToString();
+            if (nCoupang_web != 0)
+                tabCoupang_web.Badge = nCoupang_web.ToString();
+            if(nNaver != 0)
+                tabNaver.Badge = nNaver.ToString();
+
+            nTotal = nChecked = nError = nBaemin = nBaemin_web = nYogiyo = nYogiyo_web = nCoupang = nCoupang_web = nNaver = 0;
         }
     }
 }
