@@ -51,7 +51,10 @@ namespace API_Monitor
                             control.Image = Resources.red;
                             control.Tag = "red";
                             if (aPI_Response != aPi_temp)
+                            {
                                 AntdUI.Notification.error(this, aPI_Response.shop_type + " API", "API type: " + aPI_Response.api_type + "\nAPI url: " + aPI_Response.url, AntdUI.TAlignFrom.BR, Font);
+                                Thread.Sleep(3000);
+                            }
                         }
                         aPi_temp = aPI_Response;
                         Console.WriteLine("Received from server: " + eArgs.Data);
