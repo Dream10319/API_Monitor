@@ -28,7 +28,7 @@ namespace API_Monitor
             getAPI_Status();
 
             // Initialize the WebSocket connection
-            ws = new WebSocket("ws://3.34.251.227:3000");
+            ws = new WebSocket("ws://152.42.255.214:3000");
 
             // Set up event handlers for the WebSocket
             ws.OnMessage += (s, eArgs) =>
